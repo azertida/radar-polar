@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>🔍 Polarthèque</title>
+
+    <!-- PWA iOS configuration (sans manifest) -->
+    <meta name="description" content="Radar des téléfilms policiers du terroir français">
+    <meta name="theme-color" content="#1a1a2e">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Polarthèque">
+    <link rel="apple-touch-icon" href="icon.png">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+        }
+
+        html, body {
+            overflow-x: hidden;
+            max-width: 100%;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
+            background-attachment: fixed;
+            min-height: 100vh;
+            color: #e2e8f0;
+            padding: 20px;
+            padding-top: max(20px, env(safe-area-inset-top));
+            padding-bottom: max(20px, env(safe-area-inset-bottom));
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 20px;
+            padding: 25px 30px;
+            margin-bottom: 25px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2em;
+            margin-bottom: 5px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        header p {
+            opacity: 0.9;
+            font-size: 0.95em;
+            font-style: italic;
+        }
+
+        .meta {
+            font-size: 0.85em;
+            opacity: 0.8;
+            margin-top: 10px;
+        }
+
+        /* Loader */
+        .loader {
+            text-align: center;
+            padding: 40px;
+            color: #94a3b8;
+        }
+        .loader .spinner {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            border: 4px solid #334155;
+            border-top-color: #a855f7;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-bottom: 15px;
+        }
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        /* Empty / Error state */
+        .empty, .error {
+            background: #1a1a2e;
+            border: 2px solid #334155;
+            border-radius: 15px;
+            padding: 40px 25px;
+            text-align: center;
+            color: #94a3b8;
+        }
+        .empty .icon, .error .icon {
+            font-size: 3em;
+            margin-bottom: 15px;
+        }
+        .empty h2, .error h2 {
+            color: #e2e8f0;
+            margin-bottom: 10px;
+        }
+        .error {
+            border-color: #ef4444;
+        }
+        .error h2 {
+            color: #fca5a5;
+        }
+
+        /* Programme card */
+        .card {
+            background: #1a1a2e;
+            border: 1px solid #2a3f66;
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 18px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+            transition: transform 0.2s ease, border-color 0.2s ease;
+        }
+
+        .card:hover {
+            border-color: #a855f7;
+            transform: translateY(-2px);
+        }
+
+        .card-header {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 12px;
+        }
+
+        .card-poster {
+            flex-shrink: 0;
+            width: 90px;
+            height: 130px;
+            border-radius: 8px;
+            background: #334155;
+            object-fit: cover;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+        }
+
+        .card-poster-placeholder {
+            flex-shrink: 0;
+            width: 90px;
+            height: 130px;
+            border-radius: 8px;
+            background: linear-gradient(135deg, #334155, #1e293b);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2.5em;
+            color: #64748b;
+        }
+
+        .card-info {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .card-title {
+            font-size: 1.15em;
+            font-weight: 600;
+            color: #e2e8f0;
+            margin-bottom: 8px;
+            line-height: 1.3;
+        }
+
+        .card-when {
+            color: #c084fc;
+            font-weight: 600;
+            font-size: 0.95em;
+            margin-bottom: 5px;
+        }
+
+        .card-channel {
+            display: inline-block;
+            background: rgba(168, 85, 247, 0.2);
+            color: #c084fc;
+            border: 1px solid #a855f7;
+            border-radius: 12px;
+            padding: 2px 10px;
+            font-size: 0.8em;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+
+        .card-duration {
+            font-size: 0.85em;
+            color: #94a3b8;
+            margin-top: 3px;
+        }
+
+        .card-description {
+            color: #cbd5e1;
+            font-size: 0.92em;
+            line-height: 1.5;
+            margin-top: 10px;
+        }
+
+        .card-actions {
+            display: flex;
+            justify-content: flex-end;
+            gap: 10px;
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 1px solid #2a3f66;
+        }
+
+        .btn-share {
+            background: #334155;
+            color: #e2e8f0;
+            border: none;
+            border-radius: 8px;
+            padding: 8px 16px;
+            font-size: 0.9em;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.2s ease;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        .btn-share:hover, .btn-share:active {
+            background: #a855f7;
+        }
+
+        .reload-bar {
+            text-align: center;
+            margin-top: 25px;
+            padding: 15px;
+        }
+
+        .btn-reload {
+            background: rgba(168, 85, 247, 0.15);
+            color: #c084fc;
+            border: 1px solid #a855f7;
+            border-radius: 10px;
+            padding: 10px 20px;
+            font-size: 0.9em;
+            font-weight: 600;
+            cursor: pointer;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        .btn-reload:active {
+            background: rgba(168, 85, 247, 0.3);
+        }
+
+        /* Mobile adaptations */
+        @media (max-width: 480px) {
+            body { padding: 12px; }
+            header { padding: 20px; }
+            header h1 { font-size: 1.5em; }
+            .card { padding: 15px; }
+            .card-poster, .card-poster-placeholder {
+                width: 70px;
+                height: 100px;
+            }
+            .card-title { font-size: 1.05em; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🔍 Polarthèque</h1>
+            <p>Radar des polars du terroir français</p>
+            <div class="meta" id="meta">Chargement…</div>
+        </header>
+
+        <main id="content">
+            <div class="loader">
+                <div class="spinner"></div>
+                <p>Chargement des programmes…</p>
+            </div>
+        </main>
+
+        <div class="reload-bar">
+            <button class="btn-reload" id="btn-reload">↻ Rafraîchir</button>
+        </div>
+    </div>
+
+    <script>
+        // URL du JSON : relatif car servi depuis le même dépôt GitHub Pages
+        const RADAR_URL = 'radar.json';
+
+        // Format dates français
+        const FORMAT_DATE_FULL = new Intl.DateTimeFormat('fr-FR', {
+            weekday: 'long',
+            day: 'numeric',
+            month: 'long',
+            hour: '2-digit',
+            minute: '2-digit'
+        });
+
+        const FORMAT_DATE_SHORT = new Intl.DateTimeFormat('fr-FR', {
+            day: 'numeric',
+            month: 'long',
+            year: 'numeric'
+        });
+
+        // Capitaliser première lettre (pour le jour, "vendredi" → "Vendredi")
+        function capitalize(s) {
+            return s.charAt(0).toUpperCase() + s.slice(1);
+        }
+
+        // Format durée : 95 min → "1h35"
+        function formatDuration(startISO, stopISO) {
+            const start = new Date(startISO);
+            const stop = new Date(stopISO);
+            const diffMin = Math.round((stop - start) / 60000);
+            const h = Math.floor(diffMin / 60);
+            const m = diffMin % 60;
+            if (h === 0) return `${m} min`;
+            if (m === 0) return `${h}h`;
+            return `${h}h${m.toString().padStart(2, '0')}`;
+        }
+
+        // Construit le HTML d'une carte
+        function renderCard(p) {
+            const start = new Date(p.start);
+            const whenFull = capitalize(FORMAT_DATE_FULL.format(start))
+                .replace(' à ', ' • ');
+            const duration = formatDuration(p.start, p.stop);
+
+            // Affiche ou placeholder
+            const poster = p.icon
+                ? `<img class="card-poster" src="${p.icon}" alt="" loading="lazy" onerror="this.outerHTML='<div class=\\'card-poster-placeholder\\'>📺</div>'">`
+                : `<div class="card-poster-placeholder">📺</div>`;
+
+            return `
+                <article class="card" data-share='${JSON.stringify({
+                    title: p.title,
+                    channel: p.channel,
+                    when: whenFull,
+                    description: p.description || ''
+                }).replace(/'/g, "&apos;")}'>
+                    <div class="card-header">
+                        ${poster}
+                        <div class="card-info">
+                            <div class="card-title">${escapeHtml(p.title)}</div>
+                            <div class="card-when">${whenFull}</div>
+                            <span class="card-channel">${escapeHtml(p.channel)}</span>
+                            <div class="card-duration">Durée : ${duration}</div>
+                        </div>
+                    </div>
+                    ${p.description ? `<div class="card-description">${escapeHtml(p.description)}</div>` : ''}
+                    <div class="card-actions">
+                        <button class="btn-share" onclick="sharProgramme(this)">📤 Partager</button>
+                    </div>
+                </article>
+            `;
+        }
+
+        function escapeHtml(s) {
+            if (!s) return '';
+            return s.replace(/&/g, '&amp;')
+                    .replace(/</g, '&lt;')
+                    .replace(/>/g, '&gt;')
+                    .replace(/"/g, '&quot;')
+                    .replace(/'/g, '&#39;');
+        }
+
+        // Partage Web Share API (natif iOS / Android) ou copie presse-papier
+        async function sharProgramme(btn) {
+            const card = btn.closest('.card');
+            const data = JSON.parse(card.dataset.share.replace(/&apos;/g, "'"));
+            const text = `📺 ${data.title}\n${data.when} sur ${data.channel}\n\n${data.description}`;
+
+            if (navigator.share) {
+                try {
+                    await navigator.share({ title: data.title, text: text });
+                } catch (e) {
+                    // L'utilisateur a annulé, rien à faire
+                }
+            } else if (navigator.clipboard) {
+                try {
+                    await navigator.clipboard.writeText(text);
+                    const originalText = btn.textContent;
+                    btn.textContent = '✓ Copié !';
+                    setTimeout(() => btn.textContent = originalText, 2000);
+                } catch (e) {
+                    alert('Impossible de partager');
+                }
+            } else {
+                alert(text);
+            }
+        }
+
+        // Charge et affiche les données
+        async function load() {
+            const content = document.getElementById('content');
+            const meta = document.getElementById('meta');
+
+            content.innerHTML = `
+                <div class="loader">
+                    <div class="spinner"></div>
+                    <p>Chargement des programmes…</p>
+                </div>
+            `;
+
+            try {
+                // Cache-busting : on ajoute un paramètre temporel
+                // pour éviter le cache trop agressif de GitHub Pages
+                const response = await fetch(RADAR_URL + '?t=' + Date.now());
+                if (!response.ok) throw new Error('HTTP ' + response.status);
+                const data = await response.json();
+
+                // Mise à jour des métadonnées
+                const generated = new Date(data.generated_at);
+                const channelsCount = (data.channels || []).length;
+                meta.textContent = `${channelsCount} chaînes • mis à jour ${capitalize(FORMAT_DATE_SHORT.format(generated))}`;
+
+                // Affichage des programmes
+                if (!data.programmes || data.programmes.length === 0) {
+                    content.innerHTML = `
+                        <div class="empty">
+                            <div class="icon">🌙</div>
+                            <h2>Rien à se mettre sous la dent</h2>
+                            <p>Aucun polar du terroir sur les 7 prochains jours.</p>
+                            <p style="margin-top: 10px;">Reviens demain, on ne sait jamais.</p>
+                        </div>
+                    `;
+                } else {
+                    content.innerHTML = data.programmes.map(renderCard).join('');
+                }
+            } catch (err) {
+                console.error('Erreur de chargement :', err);
+                content.innerHTML = `
+                    <div class="error">
+                        <div class="icon">⚠️</div>
+                        <h2>Impossible de charger</h2>
+                        <p>Vérifie ta connexion et réessaie.</p>
+                        <p style="margin-top: 10px; font-size: 0.85em; opacity: 0.7;">${escapeHtml(err.message)}</p>
+                    </div>
+                `;
+            }
+        }
+
+        // Bouton rafraîchir
+        document.getElementById('btn-reload').addEventListener('click', load);
+
+        // Chargement initial
+        load();
+    </script>
+</body>
+</html>
