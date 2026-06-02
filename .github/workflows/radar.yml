@@ -1,0 +1,38 @@
+name: Mise à jour quotidienne du radar TV
+
+on:
+  # Tous les jours à 6h du matin heure de Bruxelles (4h UTC en été, 5h UTC en hiver)
+  schedule:
+    - cron: '0 5 * * *'
+  # Permet aussi de lancer manuellement depuis l'onglet Actions
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Cloner le dépôt
+        uses: actions/checkout@v4
+
+      - name: Configurer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Lancer le radar
+        run: python3 radar.py
+
+      - name: Commit le radar.json si modifié
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add radar.json
+          if git diff --staged --quiet; then
+            echo "Aucun changement dans radar.json"
+          else
+            git commit -m "🤖 Mise à jour automatique du radar"
+            git push
+          fi
