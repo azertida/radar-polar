@@ -178,7 +178,7 @@ def title_matches(title, keywords, prepositions):
         return False
     remainder_lower = remainder.lower()
 
-    intermediate_articles = ("le ", "la ", "les ", "l'")
+    intermediate_articles = ("le ", "la ", "les ", "l'", "mont ", "saint ", "sainte ", "st ", "ste ", "val ", "île ", "ile ", "cap ", "lac ", "bois ", "pointe ", "baie ", "côte ")
 
     def starts_with_uppercase_after(text):
         """True si text commence par un caractère majuscule, ou par un
