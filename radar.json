@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-03T19:06:45.058441+00:00",
-  "window_start": "2026-06-03",
-  "window_end": "2026-06-10",
+  "generated_at": "2026-06-04T14:45:33.284978+00:00",
+  "window_start": "2026-06-04",
+  "window_end": "2026-06-11",
   "channels": [
     "France 2",
     "France 3",
@@ -35,7 +35,7 @@
     "des",
     "sur"
   ],
-  "count": 1,
+  "count": 2,
   "programmes": [
     {
       "start": "2026-06-05T21:08:00+02:00",
@@ -46,6 +46,16 @@
       "description": "Après la découverte du corps d'un jeune surfeur tué d'une balle dans le coeur, à La Torche, la capitale du surf breton, l'enquête pour homicide est confiée au capitaine Jérémy Laubier. Lorsqu'il découvre sur l'ordinateur de la victime, la vidéo d'un cours de Morgane Le Dantec à la faculté de Quimper sur le mythe de la ville engloutie d'Ys, il fait immédiatement appel à son ex-collègue. Quel est le lien entre la légende d'Ys et le jeune surfeur ? Et pourquoi a-t-il caché à sa famille qu'il avait quitté la fac trois mois plus tôt pour travailler dans une école de surf ? Morgane sait que c'est le lien entre la victime et sa petite soeur, une ado fragile murée dans son silence et sa douleur, qui est la clé de tous ces mystères...",
       "category": "Série",
       "icon": "https://focus.telerama.fr/252x168/80/2025/08/20/8c20d1f7c87247caa0e15a1070996365"
+    },
+    {
+      "start": "2026-06-06T19:10:00+00:00",
+      "stop": "2026-06-06T20:40:00+00:00",
+      "channel": "France 3",
+      "title": "Meurtres en Balagne",
+      "subtitle": "Meurtres en Balagne",
+      "description": "De retour en Corse après la mort de son mari, une commissaire découvre un corps pendu. Cette enquête la confronte aux secrets de l'île et son propre passé.",
+      "category": "Série",
+      "icon": "http://static-cdn.tv.sfr.net/data/img/pl/7/3/6/12733637.jpg"
     }
   ]
 }
