@@ -34,5 +34,6 @@ jobs:
             echo "Aucun changement dans radar.json"
           else
             git commit -m "🤖 Mise à jour automatique du radar"
+            git pull --rebase origin main
             git push
           fi
