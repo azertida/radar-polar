@@ -25,6 +25,30 @@ jobs:
       - name: Lancer le radar
         run: python3 radar.py
 
+      - name: Diagnostic - chercher des mots-clés dans le XML brut
+        run: |
+          python3 << 'EOF'
+          import urllib.request, gzip, re
+          sources = {
+              'FR1': 'https://epgshare01.online/epgshare01/epg_ripper_FR1.xml.gz',
+              'BE2': 'https://epgshare01.online/epgshare01/epg_ripper_BE2.xml.gz',
+          }
+          keywords = ['Ventoux', 'Balagne', 'Finistère']
+          for name, url in sources.items():
+              print(f'\n=== Source {name} ===')
+              data = gzip.decompress(urllib.request.urlopen(url).read()).decode('utf-8', errors='replace')
+              for kw in keywords:
+                  print(f'\n--- Recherche de "{kw}" ---')
+                  # Extraire les <title> contenant le mot-clé
+                  pattern = re.compile(r'<title[^>]*>([^<]*' + re.escape(kw) + r'[^<]*)</title>', re.IGNORECASE)
+                  matches = pattern.findall(data)
+                  if matches:
+                      for m in set(matches):
+                          print(f'  TROUVÉ : "{m}"')
+                  else:
+                      print(f'  rien trouvé')
+          EOF
+
       - name: Commit le radar.json si modifié
         run: |
           git config user.name "github-actions[bot]"
