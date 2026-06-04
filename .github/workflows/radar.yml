@@ -36,7 +36,8 @@ jobs:
           keywords = ['Ventoux', 'Balagne', 'Finistère']
           for name, url in sources.items():
               print(f'\n=== Source {name} ===')
-              data = gzip.decompress(urllib.request.urlopen(url).read()).decode('utf-8', errors='replace')
+              req = urllib.request.Request(url, headers={'User-Agent': 'RadarTerroir/1.0'})
+              data = gzip.decompress(urllib.request.urlopen(req).read()).decode('utf-8', errors='replace')
               for kw in keywords:
                   print(f'\n--- Recherche de "{kw}" ---')
                   # Extraire les <title> contenant le mot-clé
