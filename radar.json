@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-05T19:29:32.538298+00:00",
+  "generated_at": "2026-06-05T19:39:41.280610+00:00",
   "window_start": "2026-06-05",
   "window_end": "2026-06-12",
   "channels": [
@@ -7,7 +7,7 @@
     "France 3",
     "La Une",
     "TF1",
-    "TV5 Monde Europe",
+    "TV5 Monde FBS",
     "Tipik"
   ],
   "missing_channels": [
