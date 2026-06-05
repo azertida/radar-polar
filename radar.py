@@ -39,7 +39,7 @@ TARGET_CHANNELS = {
     "TF1":      ["TF1"],
     "France 2": ["France 2", "France2"],
     "France 3": ["France 3", "France3"],
-    "TV5 Monde Europe": ["TV5MONDE Europe"],
+    "TV5 Monde FBS": ["TV5 Monde FBS"],
     "La Une":   ["La Une", "RTBF La Une", "LaUne"],
     "La Deux":  ["La Deux", "LaDeux"],
     "Tipik":    ["Tipik"],
