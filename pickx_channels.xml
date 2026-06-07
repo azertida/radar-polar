@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channels>
+  <channel site="pickx.be" lang="fr" xmltv_id="TF1.fr@HD" site_id="UID50190">TF1</channel>
+  <channel site="pickx.be" lang="fr" xmltv_id="France2.fr@HD" site_id="UID50211">France 2</channel>
+  <channel site="pickx.be" lang="fr" xmltv_id="France3.fr@HD" site_id="UID0308">France 3</channel>
+  <channel site="pickx.be" lang="fr" xmltv_id="TV5MondeFranceBelgiumSwitzerlandMonaco.fr@HD" site_id="UID2065">TV5 Monde</channel>
+  <channel site="pickx.be" lang="fr" xmltv_id="LaUne.be@HD" site_id="UID50323">La Une</channel>
+  <channel site="pickx.be" lang="fr" xmltv_id="Tipik.be@HD" site_id="UID0047">Tipik</channel>
+</channels>

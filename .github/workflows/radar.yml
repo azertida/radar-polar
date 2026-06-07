@@ -1,30 +1,81 @@
 name: Mise à jour quotidienne du radar TV
 
 on:
-  # Tous les jours à 6h du matin heure de Bruxelles (4h UTC en été, 5h UTC en hiver)
   schedule:
     - cron: '0 5 * * *'
-  # Permet aussi de lancer manuellement depuis l'onglet Actions
   workflow_dispatch:
-
-permissions:
-  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
     steps:
       - name: Cloner le dépôt
         uses: actions/checkout@v4
-
+      
       - name: Configurer Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      
+      - name: Configurer Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      
+      - name: Cloner iptv-org/epg
+        run: |
+          git clone --depth 1 https://github.com/iptv-org/epg.git /tmp/epg
+          cd /tmp/epg
+          npm install --silent
+      
+      - name: Récupérer la grille Pickx (6 chaînes ciblées)
+        run: |
+          cd /tmp/epg
+          npm run grab -- --channels=$GITHUB_WORKSPACE/pickx_channels.xml --days=7 --output=/tmp/pickx_guide.xml
+          echo "Taille du fichier généré :"
+          ls -lh /tmp/pickx_guide.xml
 
-      - name: Lancer le radar
-        run: python3 radar.py
+      - name: Diagnostic - France 3 samedi 13 juin soirée
+        run: |
+          python3 << 'EOF'
+          from xml.etree import ElementTree as ET
           
+          tree = ET.parse('/tmp/pickx_guide.xml')
+          root = tree.getroot()
+          
+          print('Programmes France 3 du samedi 13 juin entre 19h et 1h :')
+          for prog in root.findall('programme'):
+              ch = prog.get('channel', '')
+              if 'France3' not in ch:
+                  continue
+              start = prog.get('start', '')
+              # Programmes du 13 ou 14 (1h du matin = 14)
+              if not (start.startswith('20260613') or start.startswith('20260614')):
+                  continue
+              hour = start[8:10] if len(start) >= 10 else ''
+              # 19h-23h du 13, ou 0h-1h du 14
+              if start.startswith('20260613') and hour not in ('19','20','21','22','23'):
+                  continue
+              if start.startswith('20260614') and hour not in ('00','01'):
+                  continue
+              
+              title_el = prog.find('title')
+              title = (title_el.text or '') if title_el is not None else ''
+              sub_el = prog.find('sub-title')
+              subtitle = (sub_el.text or '') if sub_el is not None else ''
+              cat_el = prog.find('category')
+              category = (cat_el.text or '') if cat_el is not None else ''
+              
+              print(f'  [{start}] "{title}" / sub: "{subtitle}" / cat: "{category}"')
+          EOF
+      
+      - name: Lancer le radar
+        run: |
+          python3 radar.py --source=/tmp/pickx_guide.xml
+      
       - name: Commit le radar.json si modifié
         run: |
           git config user.name "github-actions[bot]"
@@ -34,6 +85,6 @@ jobs:
             echo "Aucun changement dans radar.json"
           else
             git commit -m "🤖 Mise à jour automatique du radar"
-            git pull --rebase origin main
+            git pull --rebase origin pickx
             git push
           fi
