@@ -31,52 +31,16 @@ jobs:
           cd /tmp/epg
           npm install --silent
       
-      - name: Récupérer la grille Pickx
+      - name: Identifier les site_id Pickx
         run: |
           cd /tmp/epg
-          npm run grab -- --sites=pickx.be --lang=fr --days=7 --output=/tmp/pickx_guide.xml
-          echo "Taille du fichier généré :"
-          ls -lh /tmp/pickx_guide.xml
-
-      - name: Diagnostic - chercher polars du samedi 13 juin
-        run: |
-          python3 << 'EOF'
-          from xml.etree import ElementTree as ET
-          
-          keywords = ['Nîmes', 'Nimes', 'Cathare', 'Ventoux']
-          
-          tree = ET.parse('/tmp/pickx_guide.xml')
-          root = tree.getroot()
-          
-          print(f"Total programmes dans pickx_guide.xml : {len(root.findall('programme'))}")
-          
-          for kw in keywords:
-              print(f'\n--- Recherche de "{kw}" ---')
-              found = 0
-              for prog in root.findall('programme'):
-                  title_el = prog.find('title')
-                  title = (title_el.text or '') if title_el is not None else ''
-                  if kw.lower() in title.lower():
-                      ch = prog.get('channel', '')
-                      start = prog.get('start', '?')
-                      print(f'  [{start}] [{ch}] "{title}"')
-                      found += 1
-              if found == 0:
-                  print(f'  rien trouvé')
-          
-          # Bonus : compter les programmes par jour pour France 3
-          print('\n--- Distribution France 3 par jour ---')
-          from collections import Counter
-          days = Counter()
-          for prog in root.findall('programme'):
-              ch = prog.get('channel', '')
-              if 'France3' in ch:
-                  start = prog.get('start', '')
-                  day = start[:8] if len(start) >= 8 else 'inconnu'
-                  days[day] += 1
-          for day in sorted(days):
-              print(f'  {day} : {days[day]} programmes')
-          EOF
+          echo "=== Recherche des site_id pour nos 6 chaînes ==="
+          grep -E "TF1\.fr|France2\.fr|France3\.fr|TV5MondeFranceBelgium|LaUne\.be|Tipik\.be" sites/pickx.be/pickx.be.channels.xml || echo "fichier non trouvé"
+          echo ""
+          echo "=== Aperçu du fichier de config ==="
+          head -50 sites/pickx.be/pickx.be.channels.xml
+          # On crée un guide.xml vide pour que l'étape suivante ne plante pas
+          echo '<?xml version="1.0" encoding="UTF-8"?><tv></tv>' > /tmp/pickx_guide.xml
       
       - name: Lancer le radar
         run: |
