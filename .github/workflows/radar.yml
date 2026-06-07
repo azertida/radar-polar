@@ -37,6 +37,46 @@ jobs:
           npm run grab -- --sites=pickx.be --lang=fr --days=7 --output=/tmp/pickx_guide.xml
           echo "Taille du fichier généré :"
           ls -lh /tmp/pickx_guide.xml
+
+      - name: Diagnostic - chercher polars du samedi 13 juin
+        run: |
+          python3 << 'EOF'
+          from xml.etree import ElementTree as ET
+          
+          keywords = ['Nîmes', 'Nimes', 'Cathare', 'Ventoux']
+          
+          tree = ET.parse('/tmp/pickx_guide.xml')
+          root = tree.getroot()
+          
+          print(f"Total programmes dans pickx_guide.xml : {len(root.findall('programme'))}")
+          
+          for kw in keywords:
+              print(f'\n--- Recherche de "{kw}" ---')
+              found = 0
+              for prog in root.findall('programme'):
+                  title_el = prog.find('title')
+                  title = (title_el.text or '') if title_el is not None else ''
+                  if kw.lower() in title.lower():
+                      ch = prog.get('channel', '')
+                      start = prog.get('start', '?')
+                      print(f'  [{start}] [{ch}] "{title}"')
+                      found += 1
+              if found == 0:
+                  print(f'  rien trouvé')
+          
+          # Bonus : compter les programmes par jour pour France 3
+          print('\n--- Distribution France 3 par jour ---')
+          from collections import Counter
+          days = Counter()
+          for prog in root.findall('programme'):
+              ch = prog.get('channel', '')
+              if 'France3' in ch:
+                  start = prog.get('start', '')
+                  day = start[:8] if len(start) >= 8 else 'inconnu'
+                  days[day] += 1
+          for day in sorted(days):
+              print(f'  {day} : {days[day]} programmes')
+          EOF
       
       - name: Lancer le radar
         run: |
