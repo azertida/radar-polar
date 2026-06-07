@@ -206,13 +206,14 @@ def extract_programmes(tree, channel_ids_by_canonical, window_start, window_end,
         title_el = prog.find("title")
         title = (title_el.text or "").strip() if title_el is not None else ""
         
-        # Filtrage par mots-clés
-        if not no_filter and not title_matches(title):
-            continue
-        
-        # Sous-titre
+        # Sous-titre (récupéré AVANT le filtrage pour pouvoir le tester aussi)
         subtitle_el = prog.find("sub-title")
         subtitle = (subtitle_el.text or "").strip() if subtitle_el is not None else ""
+        
+        # Filtrage par mots-clés : on teste le titre ET le sous-titre
+        # (Pickx met parfois le vrai nom du téléfilm dans le sous-titre)
+        if not no_filter and not (title_matches(title) or title_matches(subtitle)):
+            continue
         
         # Description
         desc_el = prog.find("desc")
