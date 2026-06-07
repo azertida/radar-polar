@@ -238,9 +238,19 @@ def extract_programmes(tree, channel_ids_by_canonical, window_start, window_end,
         })
     
     # Tri par date de début
-    programmes.sort(key=lambda p: p["start"])
-    return programmes
-
+    # Déduplication : un programme est identifié par (title, start, channel)
+    # Pickx contient plusieurs variantes par chaîne (HD, SD, +1) → mêmes programmes répétés
+    seen = set()
+    deduped = []
+    for p in programmes:
+        key = (p["title"], p["start"], p["channel"])
+        if key not in seen:
+            seen.add(key)
+            deduped.append(p)
+    
+    # Tri par date de début
+    deduped.sort(key=lambda p: p["start"])
+    return deduped
 
 # ============================================================
 # MAIN
