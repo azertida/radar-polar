@@ -66,7 +66,7 @@ LOCATION_PREPOSITIONS = [
 ]
 
 # Fenêtre temporelle : J à J+7
-WINDOW_DAYS = 3
+WINDOW_DAYS = 7
 
 # Fichiers de sortie
 OUTPUT_JSON = "radar.json"
