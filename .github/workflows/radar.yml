@@ -1,30 +1,45 @@
 name: Mise à jour quotidienne du radar TV
 
 on:
-  # Tous les jours à 6h du matin heure de Bruxelles (4h UTC en été, 5h UTC en hiver)
   schedule:
     - cron: '0 5 * * *'
-  # Permet aussi de lancer manuellement depuis l'onglet Actions
   workflow_dispatch:
-
-permissions:
-  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    
     steps:
       - name: Cloner le dépôt
         uses: actions/checkout@v4
-
+      
       - name: Configurer Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-
+      
+      - name: Configurer Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      
+      - name: Cloner iptv-org/epg
+        run: |
+          git clone --depth 1 https://github.com/iptv-org/epg.git /tmp/epg
+          cd /tmp/epg
+          npm install --silent
+      
+      - name: Récupérer la grille Pickx
+        run: |
+          cd /tmp/epg
+          npm run grab -- --site=pickx.be --lang=fr --days=7 --output=/tmp/pickx_guide.xml
+          echo "Taille du fichier généré :"
+          ls -lh /tmp/pickx_guide.xml
+      
       - name: Lancer le radar
-        run: python3 radar.py
-          
+        run: |
+          python3 radar.py --source=/tmp/pickx_guide.xml
+      
       - name: Commit le radar.json si modifié
         run: |
           git config user.name "github-actions[bot]"
@@ -34,6 +49,6 @@ jobs:
             echo "Aucun changement dans radar.json"
           else
             git commit -m "🤖 Mise à jour automatique du radar"
-            git pull --rebase origin main
+            git pull --rebase origin pickx
             git push
           fi
