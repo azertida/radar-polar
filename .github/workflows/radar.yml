@@ -37,6 +37,40 @@ jobs:
           npm run grab -- --channels=$GITHUB_WORKSPACE/pickx_channels.xml --days=7 --output=/tmp/pickx_guide.xml
           echo "Taille du fichier généré :"
           ls -lh /tmp/pickx_guide.xml
+
+      - name: Diagnostic - France 3 samedi 13 juin soirée
+        run: |
+          python3 << 'EOF'
+          from xml.etree import ElementTree as ET
+          
+          tree = ET.parse('/tmp/pickx_guide.xml')
+          root = tree.getroot()
+          
+          print('Programmes France 3 du samedi 13 juin entre 19h et 1h :')
+          for prog in root.findall('programme'):
+              ch = prog.get('channel', '')
+              if 'France3' not in ch:
+                  continue
+              start = prog.get('start', '')
+              # Programmes du 13 ou 14 (1h du matin = 14)
+              if not (start.startswith('20260613') or start.startswith('20260614')):
+                  continue
+              hour = start[8:10] if len(start) >= 10 else ''
+              # 19h-23h du 13, ou 0h-1h du 14
+              if start.startswith('20260613') and hour not in ('19','20','21','22','23'):
+                  continue
+              if start.startswith('20260614') and hour not in ('00','01'):
+                  continue
+              
+              title_el = prog.find('title')
+              title = (title_el.text or '') if title_el is not None else ''
+              sub_el = prog.find('sub-title')
+              subtitle = (sub_el.text or '') if sub_el is not None else ''
+              cat_el = prog.find('category')
+              category = (cat_el.text or '') if cat_el is not None else ''
+              
+              print(f'  [{start}] "{title}" / sub: "{subtitle}" / cat: "{category}"')
+          EOF
       
       - name: Lancer le radar
         run: |
