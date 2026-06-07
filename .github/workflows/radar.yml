@@ -24,6 +24,43 @@ jobs:
 
       - name: Lancer le radar
         run: python3 radar.py
+
+      - name: Diagnostic - chercher polars France 3 du jour
+        run: |
+          python3 << 'EOF'
+          import urllib.request, gzip
+          from xml.etree import ElementTree as ET
+          
+          sources = {
+              'FR1': 'https://epgshare01.online/epgshare01/epg_ripper_FR1.xml.gz',
+              'BE2': 'https://epgshare01.online/epgshare01/epg_ripper_BE2.xml.gz',
+          }
+          
+          keywords = ['Nîmes', 'Nimes', 'Cathare', 'Meurtres', 'Crimes']
+          
+          for name, url in sources.items():
+              print(f'\n=== Source {name} ===')
+              req = urllib.request.Request(url, headers={'User-Agent': 'RadarTerroir/1.0'})
+              data = gzip.decompress(urllib.request.urlopen(req).read())
+              root = ET.fromstring(data)
+              
+              for kw in keywords:
+                  print(f'\n--- Recherche de "{kw}" ---')
+                  found = 0
+                  for prog in root.findall('programme'):
+                      title_el = prog.find('title')
+                      title = (title_el.text or '') if title_el is not None else ''
+                      if kw.lower() in title.lower():
+                          ch = prog.get('channel', '')
+                          start = prog.get('start', '?')
+                          print(f'  [{start}] [{ch}] "{title}"')
+                          found += 1
+                          if found >= 10:
+                              print(f'  ... (limité à 10 résultats)')
+                              break
+                  if found == 0:
+                      print(f'  rien trouvé')
+          EOF
           
       - name: Commit le radar.json si modifié
         run: |
