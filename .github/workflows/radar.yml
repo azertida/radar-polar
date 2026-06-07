@@ -32,7 +32,7 @@ jobs:
       - name: Récupérer la grille Pickx
         run: |
           cd /tmp/epg
-          npm run grab -- --site=pickx.be --lang=fr --days=7 --output=/tmp/pickx_guide.xml
+          npm run grab -- --sites=pickx.be --lang=fr --days=7 --output=/tmp/pickx_guide.xml
           echo "Taille du fichier généré :"
           ls -lh /tmp/pickx_guide.xml
       
