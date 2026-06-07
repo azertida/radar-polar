@@ -1,18 +1,17 @@
 {
-  "generated_at": "2026-06-07T12:21:44.888586+00:00",
+  "generated_at": "2026-06-07T13:37:00.911252+00:00",
   "window_start": "2026-06-07",
   "window_end": "2026-06-14",
+  "source": "Pickx via iptv-org/epg",
   "channels": [
     "France 2",
     "France 3",
     "La Une",
     "TF1",
-    "TV5 Monde FBS",
+    "TV5 Monde",
     "Tipik"
   ],
-  "missing_channels": [
-    "La Deux"
-  ],
+  "missing_channels": [],
   "keywords_used": [
     "Meurtres",
     "Meurtre",
@@ -35,6 +34,147 @@
     "des",
     "sur"
   ],
-  "count": 0,
-  "programmes": []
+  "count": 14,
+  "programmes": [
+    {
+      "start": "2026-06-07T19:10:00+00:00",
+      "stop": "2026-06-07T21:00:00+00:00",
+      "channel": "France 3",
+      "title": "Vanina : Meurtres en Sicile",
+      "subtitle": "La mort de Sant'Agata",
+      "description": "Pendant la fête de Sant'Agata, patronne de la ville de Catane, Vasco Nocera est retrouvé mort dans un des carrosses d'époque exposés au public. Rentier ayant hérité du patrimoine de son père, qui était autrefois l'avocat d'une riche famille de la région, il ne travaillait pas et semblait même dilapider sa fortune au détriment de sa famille. Vanina mène l'enquête et l'aide de Biagio Patanè, commissaire à la retraite, est une fois de plus indispensable.",
+      "category": "Séries",
+      "icon": ""
+    },
+    {
+      "start": "2026-06-07T19:10:00+00:00",
+      "stop": "2026-06-07T21:00:00+00:00",
+      "channel": "France 3",
+      "title": "Vanina : Meurtres en Sicile",
+      "subtitle": "La mort de Sant'Agata",
+      "description": "Pendant la fête de Sant'Agata, patronne de la ville de Catane, Vasco Nocera est retrouvé mort dans un des carrosses d'époque exposés au public. Rentier ayant hérité du patrimoine de son père, qui était autrefois l'avocat d'une riche famille de la région, il ne travaillait pas et semblait même dilapider sa fortune au détriment de sa famille. Vanina mène l'enquête et l'aide de Biagio Patanè, commissaire à la retraite, est une fois de plus indispensable.",
+      "category": "Séries",
+      "icon": ""
+    },
+    {
+      "start": "2026-06-07T19:10:00+00:00",
+      "stop": "2026-06-07T21:00:00+00:00",
+      "channel": "France 3",
+      "title": "Vanina : Meurtres en Sicile",
+      "subtitle": "La mort de Sant'Agata",
+      "description": "Pendant la fête de Sant'Agata, patronne de la ville de Catane, Vasco Nocera est retrouvé mort dans un des carrosses d'époque exposés au public. Rentier ayant hérité du patrimoine de son père, qui était autrefois l'avocat d'une riche famille de la région, il ne travaillait pas et semblait même dilapider sa fortune au détriment de sa famille. Vanina mène l'enquête et l'aide de Biagio Patanè, commissaire à la retraite, est une fois de plus indispensable.",
+      "category": "Séries",
+      "icon": ""
+    },
+    {
+      "start": "2026-06-07T19:10:00+00:00",
+      "stop": "2026-06-07T21:00:00+00:00",
+      "channel": "France 3",
+      "title": "Vanina : Meurtres en Sicile",
+      "subtitle": "La mort de Sant'Agata",
+      "description": "Pendant la fête de Sant'Agata, patronne de la ville de Catane, Vasco Nocera est retrouvé mort dans un des carrosses d'époque exposés au public. Rentier ayant hérité du patrimoine de son père, qui était autrefois l'avocat d'une riche famille de la région, il ne travaillait pas et semblait même dilapider sa fortune au détriment de sa famille. Vanina mène l'enquête et l'aide de Biagio Patanè, commissaire à la retraite, est une fois de plus indispensable.",
+      "category": "Séries",
+      "icon": ""
+    },
+    {
+      "start": "2026-06-07T21:00:00+00:00",
+      "stop": "2026-06-07T22:55:00+00:00",
+      "channel": "France 3",
+      "title": "Vanina : Meurtres en Sicile",
+      "subtitle": "La valise échouée",
+      "description": "Vanina Guarrasi reçoit un coup de fil anonyme d'une femme prétendant qu'un crime a été commis dans une villa et que le cadavre a été placé dans une valise. Vanina n'y croit pas trop, mais elle reçoit juste après un appel de Manfredi, qui a repéré une valise abandonnée dans les rochers, juste en bas de chez lui. Quand la criminelle arrive sur les lieux, elle découvre la valise vide, mais pleine de sang et contenant un portable...",
+      "category": "Séries",
+      "icon": ""
+    },
+    {
+      "start": "2026-06-07T21:00:00+00:00",
+      "stop": "2026-06-07T22:55:00+00:00",
+      "channel": "France 3",
+      "title": "Vanina : Meurtres en Sicile",
+      "subtitle": "La valise échouée",
+      "description": "Vanina Guarrasi reçoit un coup de fil anonyme d'une femme prétendant qu'un crime a été commis dans une villa et que le cadavre a été placé dans une valise. Vanina n'y croit pas trop, mais elle reçoit juste après un appel de Manfredi, qui a repéré une valise abandonnée dans les rochers, juste en bas de chez lui. Quand la criminelle arrive sur les lieux, elle découvre la valise vide, mais pleine de sang et contenant un portable...",
+      "category": "Séries",
+      "icon": ""
+    },
+    {
+      "start": "2026-06-07T21:00:00+00:00",
+      "stop": "2026-06-07T22:55:00+00:00",
+      "channel": "France 3",
+      "title": "Vanina : Meurtres en Sicile",
+      "subtitle": "La valise échouée",
+      "description": "Vanina Guarrasi reçoit un coup de fil anonyme d'une femme prétendant qu'un crime a été commis dans une villa et que le cadavre a été placé dans une valise. Vanina n'y croit pas trop, mais elle reçoit juste après un appel de Manfredi, qui a repéré une valise abandonnée dans les rochers, juste en bas de chez lui. Quand la criminelle arrive sur les lieux, elle découvre la valise vide, mais pleine de sang et contenant un portable...",
+      "category": "Séries",
+      "icon": ""
+    },
+    {
+      "start": "2026-06-07T21:00:00+00:00",
+      "stop": "2026-06-07T22:55:00+00:00",
+      "channel": "France 3",
+      "title": "Vanina : Meurtres en Sicile",
+      "subtitle": "La valise échouée",
+      "description": "Vanina Guarrasi reçoit un coup de fil anonyme d'une femme prétendant qu'un crime a été commis dans une villa et que le cadavre a été placé dans une valise. Vanina n'y croit pas trop, mais elle reçoit juste après un appel de Manfredi, qui a repéré une valise abandonnée dans les rochers, juste en bas de chez lui. Quand la criminelle arrive sur les lieux, elle découvre la valise vide, mais pleine de sang et contenant un portable...",
+      "category": "Séries",
+      "icon": ""
+    },
+    {
+      "start": "2026-06-07T22:55:00+00:00",
+      "stop": "2026-06-08T00:50:00+00:00",
+      "channel": "France 3",
+      "title": "Vanina : Meurtres en Sicile",
+      "subtitle": "L'homme du port",
+      "description": "Le cadavre d'un homme est découvert dans la grotte d'une rivière souterraine utilisée comme salle de bar. Vincenzo La Barbera, professeur de philosophie, venait d'une famille extrêmement riche, mais avait renoncé à son héritage et vivait sur un vieux voilier amarré au port. La Barbera était un idéaliste, mais surtout, c'était un courageux militant qui luttait contre le trafic de drogue. À tel point que la mafia l'avait pris pour cible. Pourtant, le meurtre n'a pas les caractéristiques habituelles d'un crime mafieux.",
+      "category": "Séries",
+      "icon": ""
+    },
+    {
+      "start": "2026-06-07T22:55:00+00:00",
+      "stop": "2026-06-08T00:50:00+00:00",
+      "channel": "France 3",
+      "title": "Vanina : Meurtres en Sicile",
+      "subtitle": "L'homme du port",
+      "description": "Le cadavre d'un homme est découvert dans la grotte d'une rivière souterraine utilisée comme salle de bar. Vincenzo La Barbera, professeur de philosophie, venait d'une famille extrêmement riche, mais avait renoncé à son héritage et vivait sur un vieux voilier amarré au port. La Barbera était un idéaliste, mais surtout, c'était un courageux militant qui luttait contre le trafic de drogue. À tel point que la mafia l'avait pris pour cible. Pourtant, le meurtre n'a pas les caractéristiques habituelles d'un crime mafieux.",
+      "category": "Séries",
+      "icon": ""
+    },
+    {
+      "start": "2026-06-07T22:55:00+00:00",
+      "stop": "2026-06-08T00:50:00+00:00",
+      "channel": "France 3",
+      "title": "Vanina : Meurtres en Sicile",
+      "subtitle": "L'homme du port",
+      "description": "Le cadavre d'un homme est découvert dans la grotte d'une rivière souterraine utilisée comme salle de bar. Vincenzo La Barbera, professeur de philosophie, venait d'une famille extrêmement riche, mais avait renoncé à son héritage et vivait sur un vieux voilier amarré au port. La Barbera était un idéaliste, mais surtout, c'était un courageux militant qui luttait contre le trafic de drogue. À tel point que la mafia l'avait pris pour cible. Pourtant, le meurtre n'a pas les caractéristiques habituelles d'un crime mafieux.",
+      "category": "Séries",
+      "icon": ""
+    },
+    {
+      "start": "2026-06-07T22:55:00+00:00",
+      "stop": "2026-06-08T00:50:00+00:00",
+      "channel": "France 3",
+      "title": "Vanina : Meurtres en Sicile",
+      "subtitle": "L'homme du port",
+      "description": "Le cadavre d'un homme est découvert dans la grotte d'une rivière souterraine utilisée comme salle de bar. Vincenzo La Barbera, professeur de philosophie, venait d'une famille extrêmement riche, mais avait renoncé à son héritage et vivait sur un vieux voilier amarré au port. La Barbera était un idéaliste, mais surtout, c'était un courageux militant qui luttait contre le trafic de drogue. À tel point que la mafia l'avait pris pour cible. Pourtant, le meurtre n'a pas les caractéristiques habituelles d'un crime mafieux.",
+      "category": "Séries",
+      "icon": ""
+    },
+    {
+      "start": "2026-06-07T22:55:00+00:00",
+      "stop": "2026-06-08T00:50:00+00:00",
+      "channel": "France 3",
+      "title": "Vanina : Meurtres en Sicile",
+      "subtitle": "L'homme du port",
+      "description": "Le cadavre d'un homme est découvert dans la grotte d'une rivière souterraine utilisée comme salle de bar. Vincenzo La Barbera, professeur de philosophie, venait d'une famille extrêmement riche, mais avait renoncé à son héritage et vivait sur un vieux voilier amarré au port. La Barbera était un idéaliste, mais surtout, c'était un courageux militant qui luttait contre le trafic de drogue. À tel point que la mafia l'avait pris pour cible. Pourtant, le meurtre n'a pas les caractéristiques habituelles d'un crime mafieux.",
+      "category": "Séries",
+      "icon": ""
+    },
+    {
+      "start": "2026-06-07T22:55:00+00:00",
+      "stop": "2026-06-08T00:50:00+00:00",
+      "channel": "France 3",
+      "title": "Vanina : Meurtres en Sicile",
+      "subtitle": "L'homme du port",
+      "description": "Le cadavre d'un homme est découvert dans la grotte d'une rivière souterraine utilisée comme salle de bar. Vincenzo La Barbera, professeur de philosophie, venait d'une famille extrêmement riche, mais avait renoncé à son héritage et vivait sur un vieux voilier amarré au port. La Barbera était un idéaliste, mais surtout, c'était un courageux militant qui luttait contre le trafic de drogue. À tel point que la mafia l'avait pris pour cible. Pourtant, le meurtre n'a pas les caractéristiques habituelles d'un crime mafieux.",
+      "category": "Séries",
+      "icon": ""
+    }
+  ]
 }
