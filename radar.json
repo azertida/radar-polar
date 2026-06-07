@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-07T14:47:48.741488+00:00",
+  "generated_at": "2026-06-07T14:53:30.026216+00:00",
   "window_start": "2026-06-07",
   "window_end": "2026-06-14",
   "source": "Pickx via iptv-org/epg",
@@ -34,7 +34,7 @@
     "des",
     "sur"
   ],
-  "count": 3,
+  "count": 6,
   "programmes": [
     {
       "start": "2026-06-07T19:10:00+00:00",
@@ -63,6 +63,36 @@
       "title": "Vanina : Meurtres en Sicile",
       "subtitle": "L'homme du port",
       "description": "Le cadavre d'un homme est découvert dans la grotte d'une rivière souterraine utilisée comme salle de bar. Vincenzo La Barbera, professeur de philosophie, venait d'une famille extrêmement riche, mais avait renoncé à son héritage et vivait sur un vieux voilier amarré au port. La Barbera était un idéaliste, mais surtout, c'était un courageux militant qui luttait contre le trafic de drogue. À tel point que la mafia l'avait pris pour cible. Pourtant, le meurtre n'a pas les caractéristiques habituelles d'un crime mafieux.",
+      "category": "Séries",
+      "icon": ""
+    },
+    {
+      "start": "2026-06-09T04:14:00+00:00",
+      "stop": "2026-06-09T04:26:00+00:00",
+      "channel": "TF1",
+      "title": "Oum le dauphin blanc",
+      "subtitle": "Le Secret De Nino",
+      "description": "Yann et Oum protègent toujours les animaux de l'atoll de Maotou. Mais Yann doit désormais composer avec son travail de stagiaire à Manava, le Centre de recherche dirigé par Oncle Patrick.",
+      "category": "Jeunesse",
+      "icon": ""
+    },
+    {
+      "start": "2026-06-13T19:10:00+00:00",
+      "stop": "2026-06-13T20:40:00+00:00",
+      "channel": "France 3",
+      "title": "Meurtres à...",
+      "subtitle": "Meurtres à Nîmes",
+      "description": "A quelques jours de la retraite, la capitaine de gendarmerie Béatrice Pernetti voit d'un mauvais oeil l'arrivée de sa future remplaçante, la Parisienne Alix Madrigal, qui ignore tout de la région nîmoise. Bien qu'à priori aux antipodes l'une de l'autre, les deux femmes vont vite devoir mettre leurs différends de côté. Au pied de la Tour Magne, monument historique de la ville, gît un corps sans vie, en costume de gladiateur, un glaive enfoncé dans l'estomac. Sur son torse, une inscription \"COL NEM\". Dans un lieu aussi emblématique, qui a décidé de remettre le combat à mort au goût du jour ? Et surtout, pourquoi ? Alertés par la tenue de la victime, les deux femmes et leur élève officier Malik Zerbi se rendent aux Arènes de Nîmes, où se préparaient justement les \"Ludis\", reconstitution grandeur nature des grands jeux romains...",
+      "category": "Séries",
+      "icon": ""
+    },
+    {
+      "start": "2026-06-13T20:40:00+00:00",
+      "stop": "2026-06-13T22:10:00+00:00",
+      "channel": "France 3",
+      "title": "Meurtres à...",
+      "subtitle": "Meurtres en Pays Cathare",
+      "description": "Lors de l'inauguration d'une exposition sur l'Inquisition dans un célèbre château cathare, les visiteurs découvrent avec effroi le cadavre mutilé d'une jeune femme dans une cage de torture. Retrouvé sur la scène de crime, Victor, un jeune homme atteint de trisomie 21 est le principal suspect et tout semble l'accuser. Pauline Franchet, lieutenant de gendarmerie et soeur du suspect, est immédiatement démise de l'enquête et remplacée par le capitaine de la SR de Montpellier, Thomas Costella. Elle n'aura de cesse dès lors de se battre pour protéger son frère et l'innocenter. Mais ce combat ne sera pas sans conséquence pour elle comme pour son entourage...",
       "category": "Séries",
       "icon": ""
     }
