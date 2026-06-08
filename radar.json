@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-07T15:03:12.353294+00:00",
-  "window_start": "2026-06-07",
-  "window_end": "2026-06-14",
+  "generated_at": "2026-06-08T17:01:05.502063+00:00",
+  "window_start": "2026-06-08",
+  "window_end": "2026-06-15",
   "source": "Pickx via iptv-org/epg",
   "channels": [
     "France 2",
@@ -34,38 +34,8 @@
     "des",
     "sur"
   ],
-  "count": 6,
+  "count": 7,
   "programmes": [
-    {
-      "start": "2026-06-07T19:10:00+00:00",
-      "stop": "2026-06-07T21:00:00+00:00",
-      "channel": "France 3",
-      "title": "Vanina : Meurtres en Sicile",
-      "subtitle": "La mort de Sant'Agata",
-      "description": "Pendant la fête de Sant'Agata, patronne de la ville de Catane, Vasco Nocera est retrouvé mort dans un des carrosses d'époque exposés au public. Rentier ayant hérité du patrimoine de son père, qui était autrefois l'avocat d'une riche famille de la région, il ne travaillait pas et semblait même dilapider sa fortune au détriment de sa famille. Vanina mène l'enquête et l'aide de Biagio Patanè, commissaire à la retraite, est une fois de plus indispensable.",
-      "category": "Séries",
-      "icon": ""
-    },
-    {
-      "start": "2026-06-07T21:00:00+00:00",
-      "stop": "2026-06-07T22:55:00+00:00",
-      "channel": "France 3",
-      "title": "Vanina : Meurtres en Sicile",
-      "subtitle": "La valise échouée",
-      "description": "Vanina Guarrasi reçoit un coup de fil anonyme d'une femme prétendant qu'un crime a été commis dans une villa et que le cadavre a été placé dans une valise. Vanina n'y croit pas trop, mais elle reçoit juste après un appel de Manfredi, qui a repéré une valise abandonnée dans les rochers, juste en bas de chez lui. Quand la criminelle arrive sur les lieux, elle découvre la valise vide, mais pleine de sang et contenant un portable...",
-      "category": "Séries",
-      "icon": ""
-    },
-    {
-      "start": "2026-06-07T22:55:00+00:00",
-      "stop": "2026-06-08T00:50:00+00:00",
-      "channel": "France 3",
-      "title": "Vanina : Meurtres en Sicile",
-      "subtitle": "L'homme du port",
-      "description": "Le cadavre d'un homme est découvert dans la grotte d'une rivière souterraine utilisée comme salle de bar. Vincenzo La Barbera, professeur de philosophie, venait d'une famille extrêmement riche, mais avait renoncé à son héritage et vivait sur un vieux voilier amarré au port. La Barbera était un idéaliste, mais surtout, c'était un courageux militant qui luttait contre le trafic de drogue. À tel point que la mafia l'avait pris pour cible. Pourtant, le meurtre n'a pas les caractéristiques habituelles d'un crime mafieux.",
-      "category": "Séries",
-      "icon": ""
-    },
     {
       "start": "2026-06-09T04:14:00+00:00",
       "stop": "2026-06-09T04:26:00+00:00",
@@ -93,6 +63,46 @@
       "title": "Meurtres à...",
       "subtitle": "Meurtres en Pays Cathare",
       "description": "Lors de l'inauguration d'une exposition sur l'Inquisition dans un célèbre château cathare, les visiteurs découvrent avec effroi le cadavre mutilé d'une jeune femme dans une cage de torture. Retrouvé sur la scène de crime, Victor, un jeune homme atteint de trisomie 21 est le principal suspect et tout semble l'accuser. Pauline Franchet, lieutenant de gendarmerie et soeur du suspect, est immédiatement démise de l'enquête et remplacée par le capitaine de la SR de Montpellier, Thomas Costella. Elle n'aura de cesse dès lors de se battre pour protéger son frère et l'innocenter. Mais ce combat ne sera pas sans conséquence pour elle comme pour son entourage...",
+      "category": "Séries",
+      "icon": ""
+    },
+    {
+      "start": "2026-06-14T18:21:00+00:00",
+      "stop": "2026-06-14T20:04:00+00:00",
+      "channel": "La Une",
+      "title": "Meurtres à Fontainebleau",
+      "subtitle": "",
+      "description": "Un pilote de quad est retrouvé mort en forêt de Fontainebleau, tué par un cavalier mystérieux évoquant la légende du Grand Veneur. L'enquêtrice Pauline Laroche, de retour dans sa ville natale, doit collaborer avec Nicolas Dupret, gendarme équestre qu'elle a blessé par le passé. Tandis que les meurtres se multiplient, tous deux doivent affronter leurs traumatismes pour arrêter un tueur qui semble vouloir protéger la forêt à tout prix.",
+      "category": "Cinéma",
+      "icon": ""
+    },
+    {
+      "start": "2026-06-14T19:10:00+00:00",
+      "stop": "2026-06-14T21:00:00+00:00",
+      "channel": "France 3",
+      "title": "Vanina : Meurtres en Sicile",
+      "subtitle": "Un jeune homme courageux",
+      "description": "Thomas, un des jeunes sortis de la rue par le professeur La Barbera, est retrouvé mort dans la remise d'un lido. C'est sa petite amie, Emanuela Greco, qui a découvert son corps. Le substitut Vassali soupçonne immédiatement la jeune fille d'avoir tué Thomas, celui-ci l'ayant quittée la veille. Mais Vanina Guarrasi ne croit pas en la culpabilité de la jeune fille et penche plutôt pour la piste mafieuse. C'est alors qu'elle découvre qu'un des hommes de main du clan Brancato se trouvait sur les lieux du crime.",
+      "category": "Séries",
+      "icon": ""
+    },
+    {
+      "start": "2026-06-14T21:00:00+00:00",
+      "stop": "2026-06-14T22:55:00+00:00",
+      "channel": "France 3",
+      "title": "Vanina : Meurtres en Sicile",
+      "subtitle": "Le mort à l'hippocampe",
+      "description": "A peine rentrée de Palerme, Vanina doit enquêter sur la mort d'un homme, survenue à l'aéroport de Catane. Peu après, une femme meurt également à Taormine et les deux affaires semblent liées. Le mort est un Italo-Américain d'origine cubaine ayant des accointances avec la mafia. Sa veuve semble tout ignorer aussi bien de ses affaires que de sa famille. Or il semblerait qu'il ait eu un frère jumeau, resté à Cuba...",
+      "category": "Séries",
+      "icon": ""
+    },
+    {
+      "start": "2026-06-14T22:55:00+00:00",
+      "stop": "2026-06-15T00:45:00+00:00",
+      "channel": "France 3",
+      "title": "Vanina : Meurtres en Sicile",
+      "subtitle": "Le cadavre évanoui",
+      "description": "Un homme appelle la criminelle : il aurait découvert le cadavre d'une femme dans un hôtel en travaux. Mais quand la commissaire Vanina Guarrasi arrive sur les lieux avec le capitaine Spanò, ils ne voient aucun corps. Le lendemain, ils sont appelés au cimetière de Catane : un homme et une femme sont retrouvés morts dans une chapelle. Ils sont couverts de boue et installés dans une mise en scène macabre. À première vue, rien ne lie ces deux personnes. Le premier est évêque à Catane, la deuxième, médecin urgentiste. Pourquoi ont-ils été tués ensemble et installés de cette façon ?",
       "category": "Séries",
       "icon": ""
     }
