@@ -2,7 +2,8 @@ name: Mise à jour quotidienne du radar TV
 
 on:
   schedule:
-    - cron: '0 5 * * *'
+    - cron: '13 5 * * *'
+    - cron: '37 8 * * *'
   workflow_dispatch:
 
 jobs:
