@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-09T14:09:30.795895+00:00",
+  "generated_at": "2026-06-09T17:30:20.222039+00:00",
   "window_start": "2026-06-09",
   "window_end": "2026-06-16",
   "source": "Pickx via iptv-org/epg",
@@ -37,7 +37,7 @@
   "count": 7,
   "programmes": [
     {
-      "start": "2026-06-09T04:13:00+00:00",
+      "start": "2026-06-09T04:14:00+00:00",
       "stop": "2026-06-09T04:26:00+00:00",
       "channel": "TF1",
       "title": "Oum le dauphin blanc",
