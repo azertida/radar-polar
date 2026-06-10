@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-09T17:30:20.222039+00:00",
-  "window_start": "2026-06-09",
-  "window_end": "2026-06-16",
+  "generated_at": "2026-06-10T16:16:22.882985+00:00",
+  "window_start": "2026-06-10",
+  "window_end": "2026-06-17",
   "source": "Pickx via iptv-org/epg",
   "channels": [
     "France 2",
@@ -34,18 +34,8 @@
     "des",
     "sur"
   ],
-  "count": 7,
+  "count": 6,
   "programmes": [
-    {
-      "start": "2026-06-09T04:14:00+00:00",
-      "stop": "2026-06-09T04:26:00+00:00",
-      "channel": "TF1",
-      "title": "Oum le dauphin blanc",
-      "subtitle": "Le Secret De Nino",
-      "description": "Yann et Oum protègent toujours les animaux de l'atoll de Maotou. Mais Yann doit désormais composer avec son travail de stagiaire à Manava, le Centre de recherche dirigé par Oncle Patrick.",
-      "category": "Jeunesse",
-      "icon": ""
-    },
     {
       "start": "2026-06-13T19:10:00+00:00",
       "stop": "2026-06-13T20:40:00+00:00",
