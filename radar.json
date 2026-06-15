@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-14T15:28:48.210941+00:00",
-  "window_start": "2026-06-14",
-  "window_end": "2026-06-21",
+  "generated_at": "2026-06-15T14:48:25.865649+00:00",
+  "window_start": "2026-06-15",
+  "window_end": "2026-06-22",
   "source": "Pickx via iptv-org/epg",
   "channels": [
     "France 2",
@@ -34,48 +34,8 @@
     "des",
     "sur"
   ],
-  "count": 6,
+  "count": 3,
   "programmes": [
-    {
-      "start": "2026-06-14T18:21:00+00:00",
-      "stop": "2026-06-14T20:06:00+00:00",
-      "channel": "La Une",
-      "title": "Meurtres à Fontainebleau",
-      "subtitle": "",
-      "description": "Un pilote de quad est retrouvé mort en forêt de Fontainebleau, tué par un cavalier mystérieux évoquant la légende du Grand Veneur. L'enquêtrice Pauline Laroche, de retour dans sa ville natale, doit collaborer avec Nicolas Dupret, gendarme équestre qu'elle a blessé par le passé. Tandis que les meurtres se multiplient, tous deux doivent affronter leurs traumatismes pour arrêter un tueur qui semble vouloir protéger la forêt à tout prix.",
-      "category": "Cinéma",
-      "icon": ""
-    },
-    {
-      "start": "2026-06-14T19:10:00+00:00",
-      "stop": "2026-06-14T21:00:00+00:00",
-      "channel": "France 3",
-      "title": "Vanina : Meurtres en Sicile",
-      "subtitle": "Un jeune homme courageux",
-      "description": "Thomas, un des jeunes sortis de la rue par le professeur La Barbera, est retrouvé mort dans la remise d'un lido. C'est sa petite amie, Emanuela Greco, qui a découvert son corps. Le substitut Vassali soupçonne immédiatement la jeune fille d'avoir tué Thomas, celui-ci l'ayant quittée la veille. Mais Vanina Guarrasi ne croit pas en la culpabilité de la jeune fille et penche plutôt pour la piste mafieuse. C'est alors qu'elle découvre qu'un des hommes de main du clan Brancato se trouvait sur les lieux du crime.",
-      "category": "Séries",
-      "icon": ""
-    },
-    {
-      "start": "2026-06-14T21:00:00+00:00",
-      "stop": "2026-06-14T22:55:00+00:00",
-      "channel": "France 3",
-      "title": "Vanina : Meurtres en Sicile",
-      "subtitle": "Le mort à l'hippocampe",
-      "description": "A peine rentrée de Palerme, Vanina doit enquêter sur la mort d'un homme, survenue à l'aéroport de Catane. Peu après, une femme meurt également à Taormine et les deux affaires semblent liées. Le mort est un Italo-Américain d'origine cubaine ayant des accointances avec la mafia. Sa veuve semble tout ignorer aussi bien de ses affaires que de sa famille. Or il semblerait qu'il ait eu un frère jumeau, resté à Cuba...",
-      "category": "Séries",
-      "icon": ""
-    },
-    {
-      "start": "2026-06-14T22:55:00+00:00",
-      "stop": "2026-06-15T00:45:00+00:00",
-      "channel": "France 3",
-      "title": "Vanina : Meurtres en Sicile",
-      "subtitle": "Le cadavre évanoui",
-      "description": "Un homme appelle la criminelle : il aurait découvert le cadavre d'une femme dans un hôtel en travaux. Mais quand la commissaire Vanina Guarrasi arrive sur les lieux avec le capitaine Spanò, ils ne voient aucun corps. Le lendemain, ils sont appelés au cimetière de Catane : un homme et une femme sont retrouvés morts dans une chapelle. Ils sont couverts de boue et installés dans une mise en scène macabre. À première vue, rien ne lie ces deux personnes. Le premier est évêque à Catane, la deuxième, médecin urgentiste. Pourquoi ont-ils été tués ensemble et installés de cette façon ?",
-      "category": "Séries",
-      "icon": ""
-    },
     {
       "start": "2026-06-19T18:13:00+00:00",
       "stop": "2026-06-19T19:55:00+00:00",
@@ -93,6 +53,16 @@
       "title": "Meurtres à...",
       "subtitle": "Meurtres à Montauban",
       "description": "Alors que Montauban célèbre sa fête annuelle des « 400 coups » qui commémore la victoire de la ville sur les armées du roi de France en 1621, l'atmosphère de joie se transforme brusquement en tragédie. Patrick Delmas, l'entrepreneur le plus en vue de la ville et ancienne star internationale de rugby, est assassiné, abattu d'une balle dans l'œil, comme le fut le duc de Mayenne quatre siècles auparavant. Chargé de l'enquête, le commandant Martin Delacroix, fraîchement débarqué de la PJ parisienne, décide de s'associer Cyrielle Laborie, jeune lieutenante et véritable enfant du pays, une passionnée de rugby qui connaît Montauban comme sa poche. La jeune femme, qui vient de perdre sa mère, ne voit pas d'un bon œil l'arrivée de ce policier parisien trop sûr de lui. Ce que Cyrielle ignore, c'est que Martin l'a choisie comme coéquipière pour une raison bien précise. Au cours de cette enquête, ils vont faire une plongée dans l'univers de l'ovalie et dans le passé trouble de Patrick Delmas.",
+      "category": "Séries",
+      "icon": ""
+    },
+    {
+      "start": "2026-06-21T22:00:00+00:00",
+      "stop": "2026-06-21T23:55:00+00:00",
+      "channel": "France 3",
+      "title": "Vanina : Meurtres en Sicile",
+      "subtitle": "La mort de Sant'Agata",
+      "description": "Pendant la fête de Sant'Agata, patronne de la ville de Catane, Vasco Nocera est retrouvé mort dans un des carrosses d'époque exposés au public. Rentier ayant hérité du patrimoine de son père, qui était autrefois l'avocat d'une riche famille de la région, il ne travaillait pas et semblait même dilapider sa fortune au détriment de sa famille. Vanina mène l'enquête et l'aide de Biagio Patanè, commissaire à la retraite, est une fois de plus indispensable.",
       "category": "Séries",
       "icon": ""
     }
