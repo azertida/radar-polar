@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-15T20:39:05.417774+00:00",
-  "window_start": "2026-06-15",
-  "window_end": "2026-06-22",
+  "generated_at": "2026-06-16T18:00:46.129747+00:00",
+  "window_start": "2026-06-16",
+  "window_end": "2026-06-23",
   "source": "Pickx via iptv-org/epg",
   "channels": [
     "France 2",
@@ -38,7 +38,7 @@
   "programmes": [
     {
       "start": "2026-06-19T18:13:00+00:00",
-      "stop": "2026-06-19T19:55:00+00:00",
+      "stop": "2026-06-19T19:56:00+00:00",
       "channel": "La Une",
       "title": "Meurtres à Montauban",
       "subtitle": "",
