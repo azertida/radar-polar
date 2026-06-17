@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-16T20:20:39.960896+00:00",
-  "window_start": "2026-06-16",
-  "window_end": "2026-06-23",
+  "generated_at": "2026-06-17T16:49:59.291897+00:00",
+  "window_start": "2026-06-17",
+  "window_end": "2026-06-24",
   "source": "Pickx via iptv-org/epg",
   "channels": [
     "France 2",
@@ -34,7 +34,7 @@
     "des",
     "sur"
   ],
-  "count": 3,
+  "count": 4,
   "programmes": [
     {
       "start": "2026-06-19T18:13:00+00:00",
@@ -63,6 +63,16 @@
       "title": "Vanina : Meurtres en Sicile",
       "subtitle": "La mort de Sant'Agata",
       "description": "Pendant la fête de Sant'Agata, patronne de la ville de Catane, Vasco Nocera est retrouvé mort dans un des carrosses d'époque exposés au public. Rentier ayant hérité du patrimoine de son père, qui était autrefois l'avocat d'une riche famille de la région, il ne travaillait pas et semblait même dilapider sa fortune au détriment de sa famille. Vanina mène l'enquête et l'aide de Biagio Patanè, commissaire à la retraite, est une fois de plus indispensable.",
+      "category": "Séries",
+      "icon": ""
+    },
+    {
+      "start": "2026-06-23T20:45:00+00:00",
+      "stop": "2026-06-23T22:20:00+00:00",
+      "channel": "France 3",
+      "title": "Meurtres à...",
+      "subtitle": "Meurtres dans les Landes",
+      "description": "Le cadavre d'une femme est découvert à Hossegor, empalé sur l'œuvre de l'artiste Antoine Duprat qui s'apprêtait à être inaugurée. L'officier judiciaire Walter Beaumont enquêtait sur la victime trois jours auparavant, condamnée pour un trafic de billets. Il doit collaborer avec la capitaine Isabelle Hirigoyen. Beaumont, qui souhaite continuer seul ses premières investigations, se heurte au procureur, convaincu qu'un lien existe entre les deux affaires.",
       "category": "Séries",
       "icon": ""
     }
