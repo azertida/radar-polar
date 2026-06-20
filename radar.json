@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-19T17:25:48.469406+00:00",
-  "window_start": "2026-06-19",
-  "window_end": "2026-06-26",
+  "generated_at": "2026-06-20T12:13:39.637116+00:00",
+  "window_start": "2026-06-20",
+  "window_end": "2026-06-27",
   "source": "Pickx via iptv-org/epg",
   "channels": [
     "France 2",
@@ -34,18 +34,8 @@
     "des",
     "sur"
   ],
-  "count": 4,
+  "count": 3,
   "programmes": [
-    {
-      "start": "2026-06-19T18:16:00+00:00",
-      "stop": "2026-06-19T19:58:00+00:00",
-      "channel": "La Une",
-      "title": "Meurtres à Montauban",
-      "subtitle": "",
-      "description": "Un ancien joueur professionnel de rugby devenu propriétaire du club de Montauban est assassiné lors de la fête des 400 coups qui célèbre la victoire de la ville protestante contre l'armée du roi catholique Louis XIII en 1621. A peine débarqué de la PJ parisienne, le commandant Martin Delacroix va s'associer à la jeune lieutenante Cyrielle Laborie, enfant du pays adepte du rugby qui connaît la ville comme sa poche, afin de trouver le coupable. Ce que Cyrielle ignore, c'est que si Martin la choisit comme coéquipière, c'est parce qu'il cherche sa famille biologique. Né sous X, Martin veut faire la connaissance de sa demi-sœur, Cyrielle, qui lui en apprendra plus sur leur mère défunte. Sur le point de devenir père, il a besoin de connaître la raison pour laquelle sa mère biologique l'a abandonné pour aborder sereinement sa future paternité.",
-      "category": "Cinéma",
-      "icon": ""
-    },
     {
       "start": "2026-06-20T19:10:00+00:00",
       "stop": "2026-06-20T20:40:00+00:00",
