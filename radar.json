@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-20T15:24:58.447941+00:00",
-  "window_start": "2026-06-20",
-  "window_end": "2026-06-27",
+  "generated_at": "2026-06-21T12:27:19.360342+00:00",
+  "window_start": "2026-06-21",
+  "window_end": "2026-06-28",
   "source": "Pickx via iptv-org/epg",
   "channels": [
     "France 2",
@@ -37,16 +37,6 @@
   "count": 3,
   "programmes": [
     {
-      "start": "2026-06-20T19:10:00+00:00",
-      "stop": "2026-06-20T20:40:00+00:00",
-      "channel": "France 3",
-      "title": "Meurtres à...",
-      "subtitle": "Meurtres à Montauban",
-      "description": "Alors que Montauban célèbre sa fête annuelle des « 400 coups » qui commémore la victoire de la ville sur les armées du roi de France en 1621, l'atmosphère de joie se transforme brusquement en tragédie. Patrick Delmas, l'entrepreneur le plus en vue de la ville et ancienne star internationale de rugby, est assassiné, abattu d'une balle dans l'œil, comme le fut le duc de Mayenne quatre siècles auparavant. Chargé de l'enquête, le commandant Martin Delacroix, fraîchement débarqué de la PJ parisienne, décide de s'associer Cyrielle Laborie, jeune lieutenante et véritable enfant du pays, une passionnée de rugby qui connaît Montauban comme sa poche. La jeune femme, qui vient de perdre sa mère, ne voit pas d'un bon œil l'arrivée de ce policier parisien trop sûr de lui. Ce que Cyrielle ignore, c'est que Martin l'a choisie comme coéquipière pour une raison bien précise. Au cours de cette enquête, ils vont faire une plongée dans l'univers de l'ovalie et dans le passé trouble de Patrick Delmas.",
-      "category": "Séries",
-      "icon": ""
-    },
-    {
       "start": "2026-06-21T22:00:00+00:00",
       "stop": "2026-06-21T23:55:00+00:00",
       "channel": "France 3",
@@ -63,6 +53,16 @@
       "title": "Meurtres à...",
       "subtitle": "Meurtres dans les Landes",
       "description": "Le cadavre d'une femme est découvert à Hossegor, empalé sur l'œuvre de l'artiste Antoine Duprat qui s'apprêtait à être inaugurée. L'officier judiciaire Walter Beaumont enquêtait sur la victime trois jours auparavant, condamnée pour un trafic de billets. Il doit collaborer avec la capitaine Isabelle Hirigoyen. Beaumont, qui souhaite continuer seul ses premières investigations, se heurte au procureur, convaincu qu'un lien existe entre les deux affaires.",
+      "category": "Séries",
+      "icon": ""
+    },
+    {
+      "start": "2026-06-27T20:40:00+00:00",
+      "stop": "2026-06-27T22:15:00+00:00",
+      "channel": "France 3",
+      "title": "Meurtres à...",
+      "subtitle": "Meurtres à Guérande",
+      "description": "Au cours d'une enquête, Marie découvre une tête coupée, dans un cimetière, au fond d'un caveau dont les portes ont été forcées. En parallèle, un paludier a été retrouvé sans tête dans les marais salants de Guérande...",
       "category": "Séries",
       "icon": ""
     }
