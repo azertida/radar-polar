@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-21T15:31:15.903206+00:00",
-  "window_start": "2026-06-21",
-  "window_end": "2026-06-28",
+  "generated_at": "2026-06-22T17:12:12.906216+00:00",
+  "window_start": "2026-06-22",
+  "window_end": "2026-06-29",
   "source": "Pickx via iptv-org/epg",
   "channels": [
     "France 2",
@@ -37,16 +37,6 @@
   "count": 3,
   "programmes": [
     {
-      "start": "2026-06-21T22:00:00+00:00",
-      "stop": "2026-06-21T23:55:00+00:00",
-      "channel": "France 3",
-      "title": "Vanina : Meurtres en Sicile",
-      "subtitle": "La mort de Sant'Agata",
-      "description": "Pendant la fête de Sant'Agata, patronne de la ville de Catane, Vasco Nocera est retrouvé mort dans un des carrosses d'époque exposés au public. Rentier ayant hérité du patrimoine de son père, qui était autrefois l'avocat d'une riche famille de la région, il ne travaillait pas et semblait même dilapider sa fortune au détriment de sa famille. Vanina mène l'enquête et l'aide de Biagio Patanè, commissaire à la retraite, est une fois de plus indispensable.",
-      "category": "Séries",
-      "icon": ""
-    },
-    {
       "start": "2026-06-23T20:45:00+00:00",
       "stop": "2026-06-23T22:20:00+00:00",
       "channel": "France 3",
@@ -63,6 +53,16 @@
       "title": "Meurtres à...",
       "subtitle": "Meurtres à Guérande",
       "description": "Au cours d'une enquête, Marie découvre une tête coupée, dans un cimetière, au fond d'un caveau dont les portes ont été forcées. En parallèle, un paludier a été retrouvé sans tête dans les marais salants de Guérande...",
+      "category": "Séries",
+      "icon": ""
+    },
+    {
+      "start": "2026-06-28T22:00:00+00:00",
+      "stop": "2026-06-28T23:55:00+00:00",
+      "channel": "France 3",
+      "title": "Vanina : Meurtres en Sicile",
+      "subtitle": "Un jeune homme courageux",
+      "description": "Thomas, un des jeunes sortis de la rue par le professeur La Barbera, est retrouvé mort dans la remise d'un lido. C'est sa petite amie, Emanuela Greco, qui a découvert son corps. Le substitut Vassali soupçonne immédiatement la jeune fille d'avoir tué Thomas, celui-ci l'ayant quittée la veille. Mais Vanina Guarrasi ne croit pas en la culpabilité de la jeune fille et penche plutôt pour la piste mafieuse. C'est alors qu'elle découvre qu'un des hommes de main du clan Brancato se trouvait sur les lieux du crime.",
       "category": "Séries",
       "icon": ""
     }
