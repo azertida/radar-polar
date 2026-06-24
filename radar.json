@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-23T17:21:49.402702+00:00",
-  "window_start": "2026-06-23",
-  "window_end": "2026-06-30",
+  "generated_at": "2026-06-24T12:36:24.837916+00:00",
+  "window_start": "2026-06-24",
+  "window_end": "2026-07-01",
   "source": "Pickx via iptv-org/epg",
   "channels": [
     "France 2",
@@ -37,16 +37,6 @@
   "count": 3,
   "programmes": [
     {
-      "start": "2026-06-23T20:45:00+00:00",
-      "stop": "2026-06-23T22:20:00+00:00",
-      "channel": "France 3",
-      "title": "Meurtres à...",
-      "subtitle": "Meurtres dans les Landes",
-      "description": "Le cadavre d'une femme est découvert à Hossegor, empalé sur l'œuvre de l'artiste Antoine Duprat qui s'apprêtait à être inaugurée. L'officier judiciaire Walter Beaumont enquêtait sur la victime trois jours auparavant, condamnée pour un trafic de billets. Il doit collaborer avec la capitaine Isabelle Hirigoyen. Beaumont, qui souhaite continuer seul ses premières investigations, se heurte au procureur, convaincu qu'un lien existe entre les deux affaires.",
-      "category": "Séries",
-      "icon": ""
-    },
-    {
       "start": "2026-06-27T20:40:00+00:00",
       "stop": "2026-06-27T22:15:00+00:00",
       "channel": "France 3",
@@ -63,6 +53,16 @@
       "title": "Vanina : Meurtres en Sicile",
       "subtitle": "Un jeune homme courageux",
       "description": "Thomas, un des jeunes sortis de la rue par le professeur La Barbera, est retrouvé mort dans la remise d'un lido. C'est sa petite amie, Emanuela Greco, qui a découvert son corps. Le substitut Vassali soupçonne immédiatement la jeune fille d'avoir tué Thomas, celui-ci l'ayant quittée la veille. Mais Vanina Guarrasi ne croit pas en la culpabilité de la jeune fille et penche plutôt pour la piste mafieuse. C'est alors qu'elle découvre qu'un des hommes de main du clan Brancato se trouvait sur les lieux du crime.",
+      "category": "Séries",
+      "icon": ""
+    },
+    {
+      "start": "2026-06-30T20:40:00+00:00",
+      "stop": "2026-06-30T22:15:00+00:00",
+      "channel": "France 3",
+      "title": "Meurtres à...",
+      "subtitle": "Meurtres à La Rochelle",
+      "description": "Lorsque qu'un homme d'affaires rochelais est retrouvé pendu dans la tour St-Nicolas, la lettre « A » comme Avarice tracée au sang sur son front, la ville croit retourner au pire temps de son histoire, terreau sanglant de la légende des 7 moines, des catholiques exécutés par les forces protestantes rochelaises au XVIIe siècle. Depuis, cette malédiction incarne la main du jugement dernier sur Terre ou plutôt dans la région de La Rochelle... C'est le capitaine Raphaël Weiss qui est chargé de l'affaire sous les ordres de sa fille la Cdt Justine Balmont, venue spécialement de Bordeaux, après deux années de silence et vingt années de non-dits. Cette enquête à tiroirs va tendre encore les relations entre Justine et Raphaël surtout lorsque la jeune femme va découvrir les secrets de la vie de son père et notamment sa part d'ombre qui pourrait bien avoir fait de lui un assassin...",
       "category": "Séries",
       "icon": ""
     }
