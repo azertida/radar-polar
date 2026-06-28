@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-27T12:59:16.822554+00:00",
-  "window_start": "2026-06-27",
-  "window_end": "2026-07-04",
+  "generated_at": "2026-06-28T11:26:50.486148+00:00",
+  "window_start": "2026-06-28",
+  "window_end": "2026-07-05",
   "source": "Pickx via iptv-org/epg",
   "channels": [
     "France 2",
@@ -34,18 +34,8 @@
     "des",
     "sur"
   ],
-  "count": 3,
+  "count": 4,
   "programmes": [
-    {
-      "start": "2026-06-27T20:40:00+00:00",
-      "stop": "2026-06-27T22:15:00+00:00",
-      "channel": "France 3",
-      "title": "Meurtres à...",
-      "subtitle": "Meurtres à Guérande",
-      "description": "Au cours d'une enquête, Marie découvre une tête coupée, dans un cimetière, au fond d'un caveau dont les portes ont été forcées. En parallèle, un paludier a été retrouvé sans tête dans les marais salants de Guérande...",
-      "category": "Séries",
-      "icon": ""
-    },
     {
       "start": "2026-06-28T22:00:00+00:00",
       "stop": "2026-06-28T23:55:00+00:00",
@@ -63,6 +53,26 @@
       "title": "Meurtres à...",
       "subtitle": "Meurtres à La Rochelle",
       "description": "Lorsque qu'un homme d'affaires rochelais est retrouvé pendu dans la tour St-Nicolas, la lettre « A » comme Avarice tracée au sang sur son front, la ville croit retourner au pire temps de son histoire, terreau sanglant de la légende des 7 moines, des catholiques exécutés par les forces protestantes rochelaises au XVIIe siècle. Depuis, cette malédiction incarne la main du jugement dernier sur Terre ou plutôt dans la région de La Rochelle... C'est le capitaine Raphaël Weiss qui est chargé de l'affaire sous les ordres de sa fille la Cdt Justine Balmont, venue spécialement de Bordeaux, après deux années de silence et vingt années de non-dits. Cette enquête à tiroirs va tendre encore les relations entre Justine et Raphaël surtout lorsque la jeune femme va découvrir les secrets de la vie de son père et notamment sa part d'ombre qui pourrait bien avoir fait de lui un assassin...",
+      "category": "Séries",
+      "icon": ""
+    },
+    {
+      "start": "2026-07-04T19:10:00+00:00",
+      "stop": "2026-07-04T20:45:00+00:00",
+      "channel": "France 3",
+      "title": "Meurtres à...",
+      "subtitle": "Meurtres à Bayeux",
+      "description": "Le corps de John Dewish, un lord anglais, est retrouvé dans la campagne entourant Bayeux, une flèche fichée dans l'oeil. La capitane Clara Leprince, enceinte de 7 mois, est chargée de l'enquête. Elle ne tarde pas à découvrir que la victime était liée à plus d'un titre à la célèbre Tapisserie de Bayeux, laquelle suscite, hier comme aujourd'hui, passion et convoitise. Tout en enquêtant, Clara se retrouve contrainte de replonger dans son passé. Un passé douloureux lui aussi lié à la Tapisserie de Bayeux...",
+      "category": "Séries",
+      "icon": ""
+    },
+    {
+      "start": "2026-07-04T20:45:00+00:00",
+      "stop": "2026-07-04T22:20:00+00:00",
+      "channel": "France 3",
+      "title": "Meurtres à...",
+      "subtitle": "Meurtres à Saint-Malo",
+      "description": "Un cadavre est découvert sur la plage de Saint-Malo. L'adjudant-chef Éric Vautier doit collaborer avec le Lieutenant Garrec de la police judiciaire de Rennes leur enquête va les emmener sur la piste de la piraterie...",
       "category": "Séries",
       "icon": ""
     }
