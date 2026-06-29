@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-28T13:05:46.637958+00:00",
-  "window_start": "2026-06-28",
-  "window_end": "2026-07-05",
+  "generated_at": "2026-06-29T16:47:42.023148+00:00",
+  "window_start": "2026-06-29",
+  "window_end": "2026-07-06",
   "source": "Pickx via iptv-org/epg",
   "channels": [
     "France 2",
@@ -34,18 +34,8 @@
     "des",
     "sur"
   ],
-  "count": 4,
+  "count": 3,
   "programmes": [
-    {
-      "start": "2026-06-28T22:00:00+00:00",
-      "stop": "2026-06-28T23:55:00+00:00",
-      "channel": "France 3",
-      "title": "Vanina : Meurtres en Sicile",
-      "subtitle": "Un jeune homme courageux",
-      "description": "Thomas, un des jeunes sortis de la rue par le professeur La Barbera, est retrouvé mort dans la remise d'un lido. C'est sa petite amie, Emanuela Greco, qui a découvert son corps. Le substitut Vassali soupçonne immédiatement la jeune fille d'avoir tué Thomas, celui-ci l'ayant quittée la veille. Mais Vanina Guarrasi ne croit pas en la culpabilité de la jeune fille et penche plutôt pour la piste mafieuse. C'est alors qu'elle découvre qu'un des hommes de main du clan Brancato se trouvait sur les lieux du crime.",
-      "category": "Séries",
-      "icon": ""
-    },
     {
       "start": "2026-06-30T20:40:00+00:00",
       "stop": "2026-06-30T22:15:00+00:00",
