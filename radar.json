@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-04T23:21:21.746668+00:00",
-  "window_start": "2026-07-04",
-  "window_end": "2026-07-11",
+  "generated_at": "2026-07-05T08:13:57.813356+00:00",
+  "window_start": "2026-07-05",
+  "window_end": "2026-07-12",
   "source": "Pickx via iptv-org/epg",
   "channels": [
     "France 2",
@@ -34,25 +34,15 @@
     "des",
     "sur"
   ],
-  "count": 2,
+  "count": 1,
   "programmes": [
     {
-      "start": "2026-07-04T19:10:00+00:00",
-      "stop": "2026-07-04T20:45:00+00:00",
+      "start": "2026-07-11T23:55:00+00:00",
+      "stop": "2026-07-12T01:25:00+00:00",
       "channel": "France 3",
       "title": "Meurtres à...",
-      "subtitle": "Meurtres à Bayeux",
-      "description": "Le corps de John Dewish, un lord anglais, est retrouvé dans la campagne entourant Bayeux, une flèche fichée dans l'oeil. La capitane Clara Leprince, enceinte de 7 mois, est chargée de l'enquête. Elle ne tarde pas à découvrir que la victime était liée à plus d'un titre à la célèbre Tapisserie de Bayeux, laquelle suscite, hier comme aujourd'hui, passion et convoitise. Tout en enquêtant, Clara se retrouve contrainte de replonger dans son passé. Un passé douloureux lui aussi lié à la Tapisserie de Bayeux...",
-      "category": "Séries",
-      "icon": ""
-    },
-    {
-      "start": "2026-07-04T20:45:00+00:00",
-      "stop": "2026-07-04T22:20:00+00:00",
-      "channel": "France 3",
-      "title": "Meurtres à...",
-      "subtitle": "Meurtres à Saint-Malo",
-      "description": "Un cadavre est découvert sur la plage de Saint-Malo. L'adjudant-chef Éric Vautier doit collaborer avec le Lieutenant Garrec de la police judiciaire de Rennes leur enquête va les emmener sur la piste de la piraterie...",
+      "subtitle": "Meurtres à Nîmes",
+      "description": "A quelques jours de la retraite, la capitaine de gendarmerie Béatrice Pernetti voit d'un mauvais oeil l'arrivée de sa future remplaçante, la Parisienne Alix Madrigal, qui ignore tout de la région nîmoise. Bien qu'à priori aux antipodes l'une de l'autre, les deux femmes vont vite devoir mettre leurs différends de côté. Au pied de la Tour Magne, monument historique de la ville, gît un corps sans vie, en costume de gladiateur, un glaive enfoncé dans l'estomac. Sur son torse, une inscription \"COL NEM\". Dans un lieu aussi emblématique, qui a décidé de remettre le combat à mort au goût du jour ? Et surtout, pourquoi ? Alertés par la tenue de la victime, les deux femmes et leur élève officier Malik Zerbi se rendent aux Arènes de Nîmes, où se préparaient justement les \"Ludis\", reconstitution grandeur nature des grands jeux romains...",
       "category": "Séries",
       "icon": ""
     }
