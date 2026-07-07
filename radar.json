@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-06T12:27:16.157167+00:00",
-  "window_start": "2026-07-06",
-  "window_end": "2026-07-13",
+  "generated_at": "2026-07-07T08:38:09.224418+00:00",
+  "window_start": "2026-07-07",
+  "window_end": "2026-07-14",
   "source": "Pickx via iptv-org/epg",
   "channels": [
     "France 2",
@@ -34,7 +34,7 @@
     "des",
     "sur"
   ],
-  "count": 1,
+  "count": 3,
   "programmes": [
     {
       "start": "2026-07-11T23:55:00+00:00",
@@ -44,6 +44,26 @@
       "subtitle": "Meurtres à Nîmes",
       "description": "A quelques jours de la retraite, la capitaine de gendarmerie Béatrice Pernetti voit d'un mauvais oeil l'arrivée de sa future remplaçante, la Parisienne Alix Madrigal, qui ignore tout de la région nîmoise. Bien qu'à priori aux antipodes l'une de l'autre, les deux femmes vont vite devoir mettre leurs différends de côté. Au pied de la Tour Magne, monument historique de la ville, gît un corps sans vie, en costume de gladiateur, un glaive enfoncé dans l'estomac. Sur son torse, une inscription \"COL NEM\". Dans un lieu aussi emblématique, qui a décidé de remettre le combat à mort au goût du jour ? Et surtout, pourquoi ? Alertés par la tenue de la victime, les deux femmes et leur élève officier Malik Zerbi se rendent aux Arènes de Nîmes, où se préparaient justement les \"Ludis\", reconstitution grandeur nature des grands jeux romains...",
       "category": "Séries",
+      "icon": ""
+    },
+    {
+      "start": "2026-07-13T19:10:00+00:00",
+      "stop": "2026-07-13T20:45:00+00:00",
+      "channel": "France 3",
+      "title": "Crime à Ramatuelle",
+      "subtitle": "",
+      "description": "À Ramatuelle, on retrouve, assassiné chez lui, Sébastien Lacassagne, un jeune patron qui dirigeait une plage et un domaine viticole. La procureure Élisabeth Richard accompagnée de la capitaine Caroline Martinez se retrouvent sur place pour résoudre cette enquête où la liste des suspects s'allonge à mesure de leurs avancées. Elles recroisent sur les lieux le journaliste Grégoire Spaletta. Ce dernier joue double jeu avec nos enquêtrices, qui vont rapidement relier le meurtre de Lacassagne à la disparition deux ans plus tôt d'une jeune Suédoise qui n'était autre que la petite amie du journaliste...",
+      "category": "Cinéma",
+      "icon": ""
+    },
+    {
+      "start": "2026-07-13T20:45:00+00:00",
+      "stop": "2026-07-13T22:20:00+00:00",
+      "channel": "France 3",
+      "title": "Crime en Lozère",
+      "subtitle": "",
+      "description": "Dans le gouffre de l'aven Armand, en Lozère, on découvre le corps poignardé en plein cœur de Jérôme Sennac, exploitant agricole et guide bénévole. La vice-procureure de la République Élisabeth Richard et le commandant de gendarmerie Paul Jansac se rendent sur les lieux pour mener l'enquête.",
+      "category": "Cinéma",
       "icon": ""
     }
   ]
