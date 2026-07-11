@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-10T11:31:21.956081+00:00",
-  "window_start": "2026-07-10",
-  "window_end": "2026-07-17",
+  "generated_at": "2026-07-11T07:19:31.226356+00:00",
+  "window_start": "2026-07-11",
+  "window_end": "2026-07-18",
   "source": "Pickx via iptv-org/epg",
   "channels": [
     "France 2",
@@ -34,7 +34,7 @@
     "des",
     "sur"
   ],
-  "count": 3,
+  "count": 4,
   "programmes": [
     {
       "start": "2026-07-11T23:55:00+00:00",
@@ -64,6 +64,16 @@
       "subtitle": "",
       "description": "Dans le gouffre de l'aven Armand, en Lozère, on découvre le corps poignardé en plein cœur de Jérôme Sennac, exploitant agricole et guide bénévole. La vice-procureure de la République Élisabeth Richard et le commandant de gendarmerie Paul Jansac se rendent sur les lieux pour mener l'enquête.",
       "category": "Cinéma",
+      "icon": ""
+    },
+    {
+      "start": "2026-07-17T12:49:00+00:00",
+      "stop": "2026-07-17T13:35:00+00:00",
+      "channel": "Tipik",
+      "title": "All American",
+      "subtitle": "Meurtre à Beverly Hills",
+      "description": "Olivia va contre de son instinct à propos d'un article provoquant des frictions avec Spencer.",
+      "category": "Séries",
       "icon": ""
     }
   ]
