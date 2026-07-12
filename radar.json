@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-11T10:05:55.557924+00:00",
-  "window_start": "2026-07-11",
-  "window_end": "2026-07-18",
+  "generated_at": "2026-07-12T07:37:24.427510+00:00",
+  "window_start": "2026-07-12",
+  "window_end": "2026-07-19",
   "source": "Pickx via iptv-org/epg",
   "channels": [
     "France 2",
@@ -37,16 +37,6 @@
   "count": 4,
   "programmes": [
     {
-      "start": "2026-07-11T23:55:00+00:00",
-      "stop": "2026-07-12T01:25:00+00:00",
-      "channel": "France 3",
-      "title": "Meurtres à...",
-      "subtitle": "Meurtres à Nîmes",
-      "description": "A quelques jours de la retraite, la capitaine de gendarmerie Béatrice Pernetti voit d'un mauvais oeil l'arrivée de sa future remplaçante, la Parisienne Alix Madrigal, qui ignore tout de la région nîmoise. Bien qu'à priori aux antipodes l'une de l'autre, les deux femmes vont vite devoir mettre leurs différends de côté. Au pied de la Tour Magne, monument historique de la ville, gît un corps sans vie, en costume de gladiateur, un glaive enfoncé dans l'estomac. Sur son torse, une inscription \"COL NEM\". Dans un lieu aussi emblématique, qui a décidé de remettre le combat à mort au goût du jour ? Et surtout, pourquoi ? Alertés par la tenue de la victime, les deux femmes et leur élève officier Malik Zerbi se rendent aux Arènes de Nîmes, où se préparaient justement les \"Ludis\", reconstitution grandeur nature des grands jeux romains...",
-      "category": "Séries",
-      "icon": ""
-    },
-    {
       "start": "2026-07-13T19:10:00+00:00",
       "stop": "2026-07-13T20:45:00+00:00",
       "channel": "France 3",
@@ -73,6 +63,16 @@
       "title": "All American",
       "subtitle": "Meurtre à Beverly Hills",
       "description": "Olivia va contre de son instinct à propos d'un article provoquant des frictions avec Spencer.",
+      "category": "Séries",
+      "icon": ""
+    },
+    {
+      "start": "2026-07-18T22:20:00+00:00",
+      "stop": "2026-07-18T23:55:00+00:00",
+      "channel": "France 3",
+      "title": "Meurtres à...",
+      "subtitle": "Meurtres à La Rochelle",
+      "description": "Lorsque qu'un homme d'affaires rochelais est retrouvé pendu dans la tour St-Nicolas, la lettre « A » comme Avarice tracée au sang sur son front, la ville croit retourner au pire temps de son histoire, terreau sanglant de la légende des 7 moines, des catholiques exécutés par les forces protestantes rochelaises au XVIIe siècle. Depuis, cette malédiction incarne la main du jugement dernier sur Terre ou plutôt dans la région de La Rochelle... C'est le capitaine Raphaël Weiss qui est chargé de l'affaire sous les ordres de sa fille la Cdt Justine Balmont, venue spécialement de Bordeaux, après deux années de silence et vingt années de non-dits. Cette enquête à tiroirs va tendre encore les relations entre Justine et Raphaël surtout lorsque la jeune femme va découvrir les secrets de la vie de son père et notamment sa part d'ombre qui pourrait bien avoir fait de lui un assassin...",
       "category": "Séries",
       "icon": ""
     }
