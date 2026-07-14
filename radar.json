@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-13T11:42:17.617099+00:00",
-  "window_start": "2026-07-13",
-  "window_end": "2026-07-20",
+  "generated_at": "2026-07-14T07:20:04.457262+00:00",
+  "window_start": "2026-07-14",
+  "window_end": "2026-07-21",
   "source": "Pickx via iptv-org/epg",
   "channels": [
     "France 2",
@@ -34,31 +34,11 @@
     "des",
     "sur"
   ],
-  "count": 6,
+  "count": 4,
   "programmes": [
     {
-      "start": "2026-07-13T19:10:00+00:00",
-      "stop": "2026-07-13T20:45:00+00:00",
-      "channel": "France 3",
-      "title": "Crime à Ramatuelle",
-      "subtitle": "",
-      "description": "À Ramatuelle, on retrouve, assassiné chez lui, Sébastien Lacassagne, un jeune patron qui dirigeait une plage et un domaine viticole. La procureure Élisabeth Richard accompagnée de la capitaine Caroline Martinez se retrouvent sur place pour résoudre cette enquête où la liste des suspects s'allonge à mesure de leurs avancées. Elles recroisent sur les lieux le journaliste Grégoire Spaletta. Ce dernier joue double jeu avec nos enquêtrices, qui vont rapidement relier le meurtre de Lacassagne à la disparition deux ans plus tôt d'une jeune Suédoise qui n'était autre que la petite amie du journaliste...",
-      "category": "Cinéma",
-      "icon": ""
-    },
-    {
-      "start": "2026-07-13T20:45:00+00:00",
-      "stop": "2026-07-13T22:20:00+00:00",
-      "channel": "France 3",
-      "title": "Crime en Lozère",
-      "subtitle": "",
-      "description": "Dans le gouffre de l'aven Armand, en Lozère, on découvre le corps poignardé en plein cœur de Jérôme Sennac, exploitant agricole et guide bénévole. La vice-procureure de la République Élisabeth Richard et le commandant de gendarmerie Paul Jansac se rendent sur les lieux pour mener l'enquête.",
-      "category": "Cinéma",
-      "icon": ""
-    },
-    {
-      "start": "2026-07-17T12:49:00+00:00",
-      "stop": "2026-07-17T13:35:00+00:00",
+      "start": "2026-07-17T12:48:00+00:00",
+      "stop": "2026-07-17T13:34:00+00:00",
       "channel": "Tipik",
       "title": "All American",
       "subtitle": "Meurtre à Beverly Hills",
