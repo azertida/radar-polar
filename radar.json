@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-14T10:23:08.669941+00:00",
-  "window_start": "2026-07-14",
-  "window_end": "2026-07-21",
+  "generated_at": "2026-07-15T07:23:22.311694+00:00",
+  "window_start": "2026-07-15",
+  "window_end": "2026-07-22",
   "source": "Pickx via iptv-org/epg",
   "channels": [
     "France 2",
@@ -37,8 +37,8 @@
   "count": 4,
   "programmes": [
     {
-      "start": "2026-07-17T12:48:00+00:00",
-      "stop": "2026-07-17T13:34:00+00:00",
+      "start": "2026-07-17T12:39:00+00:00",
+      "stop": "2026-07-17T13:24:00+00:00",
       "channel": "Tipik",
       "title": "All American",
       "subtitle": "Meurtre à Beverly Hills",
