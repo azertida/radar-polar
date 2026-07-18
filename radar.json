@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-17T10:24:03.336138+00:00",
-  "window_start": "2026-07-17",
-  "window_end": "2026-07-24",
+  "generated_at": "2026-07-18T07:07:05.650337+00:00",
+  "window_start": "2026-07-18",
+  "window_end": "2026-07-25",
   "source": "Pickx via iptv-org/epg",
   "channels": [
     "France 2",
@@ -34,18 +34,8 @@
     "des",
     "sur"
   ],
-  "count": 4,
+  "count": 3,
   "programmes": [
-    {
-      "start": "2026-07-17T12:39:00+00:00",
-      "stop": "2026-07-17T13:24:00+00:00",
-      "channel": "Tipik",
-      "title": "All American",
-      "subtitle": "Meurtre à Beverly Hills",
-      "description": "Olivia va contre de son instinct à propos d'un article provoquant des frictions avec Spencer.",
-      "category": "Séries",
-      "icon": ""
-    },
     {
       "start": "2026-07-18T22:20:00+00:00",
       "stop": "2026-07-18T23:55:00+00:00",
