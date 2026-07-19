@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-18T10:03:30.183924+00:00",
-  "window_start": "2026-07-18",
-  "window_end": "2026-07-25",
+  "generated_at": "2026-07-19T07:35:42.910630+00:00",
+  "window_start": "2026-07-19",
+  "window_end": "2026-07-26",
   "source": "Pickx via iptv-org/epg",
   "channels": [
     "France 2",
@@ -34,18 +34,8 @@
     "des",
     "sur"
   ],
-  "count": 3,
+  "count": 2,
   "programmes": [
-    {
-      "start": "2026-07-18T22:20:00+00:00",
-      "stop": "2026-07-18T23:55:00+00:00",
-      "channel": "France 3",
-      "title": "Meurtres à...",
-      "subtitle": "Meurtres à La Rochelle",
-      "description": "Lorsque qu'un homme d'affaires rochelais est retrouvé pendu dans la tour St-Nicolas, la lettre « A » comme Avarice tracée au sang sur son front, la ville croit retourner au pire temps de son histoire, terreau sanglant de la légende des 7 moines, des catholiques exécutés par les forces protestantes rochelaises au XVIIe siècle. Depuis, cette malédiction incarne la main du jugement dernier sur Terre ou plutôt dans la région de La Rochelle... C'est le capitaine Raphaël Weiss qui est chargé de l'affaire sous les ordres de sa fille la Cdt Justine Balmont, venue spécialement de Bordeaux, après deux années de silence et vingt années de non-dits. Cette enquête à tiroirs va tendre encore les relations entre Justine et Raphaël surtout lorsque la jeune femme va découvrir les secrets de la vie de son père et notamment sa part d'ombre qui pourrait bien avoir fait de lui un assassin...",
-      "category": "Séries",
-      "icon": ""
-    },
     {
       "start": "2026-07-19T19:10:00+00:00",
       "stop": "2026-07-19T20:40:00+00:00",
