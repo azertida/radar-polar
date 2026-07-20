@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-19T10:12:03.260994+00:00",
-  "window_start": "2026-07-19",
-  "window_end": "2026-07-26",
+  "generated_at": "2026-07-20T08:17:12.882773+00:00",
+  "window_start": "2026-07-20",
+  "window_end": "2026-07-27",
   "source": "Pickx via iptv-org/epg",
   "channels": [
     "France 2",
@@ -34,27 +34,6 @@
     "des",
     "sur"
   ],
-  "count": 2,
-  "programmes": [
-    {
-      "start": "2026-07-19T19:10:00+00:00",
-      "stop": "2026-07-19T20:40:00+00:00",
-      "channel": "France 3",
-      "title": "Meurtres à...",
-      "subtitle": "Meurtres à Mulhouse",
-      "description": "En enquêtant sur un crime commis dans une ancienne mine de potasse proche de Mulhouse, la lieutenant de gendarmerie Sandra Bauer en vient à soupçonner l'avocate qui l'avait privée de la garde de son fils lors de son divorce. Mais pour l'atteindre, Sandra doit affronter son propre frère, Frédéric Bauer, avocat lui aussi. Au cours de cette enquête où Sandra et son adjoint, Laurent Bourbon, se rapprochent enfin, elle doit faire face à la légende de Saint-Nicolas qui rôde. Surtout, Sandra et son frère renouent avec un passé tragique : la disparition trois ans plus tôt, de leur neveu Bastien, alors âgé de 9 ans.",
-      "category": "Séries",
-      "icon": ""
-    },
-    {
-      "start": "2026-07-19T20:40:00+00:00",
-      "stop": "2026-07-19T22:15:00+00:00",
-      "channel": "France 3",
-      "title": "Meurtres à...",
-      "subtitle": "Meurtres en Lorraine",
-      "description": "Lorsqu'un cadavre est découvert dans la citadelle de Bitche en Lorraine, porteur d'une pièce d'échecs en cristal, le Lieutenant Nicolas Muller est dépêché sur place. Il est accompagné par une jeune stagiaire, dont il va découvrir au terme d'une enquête complexe dans le milieu du cristal, qu'elle lui est moins étrangère qu'il n'y parait.",
-      "category": "Séries",
-      "icon": ""
-    }
-  ]
+  "count": 0,
+  "programmes": []
 }
