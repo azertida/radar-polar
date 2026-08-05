@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-04T11:08:11.892745+00:00",
-  "window_start": "2026-08-04",
-  "window_end": "2026-08-11",
+  "generated_at": "2026-08-05T07:48:55.477229+00:00",
+  "window_start": "2026-08-05",
+  "window_end": "2026-08-12",
   "source": "Pickx via iptv-org/epg",
   "channels": [
     "France 2",
@@ -34,17 +34,6 @@
     "des",
     "sur"
   ],
-  "count": 1,
-  "programmes": [
-    {
-      "start": "2026-08-04T04:20:00+00:00",
-      "stop": "2026-08-04T04:31:00+00:00",
-      "channel": "TF1",
-      "title": "Alice et Lewis",
-      "subtitle": "Le Secret de Dinah",
-      "description": "Alice propose à Lewis, Dinah et Charlie de leur faire découvrir un nouveau « Cap ou pas cap ». Dinah est sûre de gagner, elle n'a jamais peur de rien ! C'est du moins ce qu'elle prétend. Elle donne du sirop mini à Charlie pour qu'il rapetisse et ne dise rien ! Mais Mini Charlie finit par s'échapper...",
-      "category": "Jeunesse",
-      "icon": ""
-    }
-  ]
+  "count": 0,
+  "programmes": []
 }
