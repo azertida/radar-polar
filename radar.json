@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-06T11:05:20.143438+00:00",
-  "window_start": "2026-08-06",
-  "window_end": "2026-08-13",
+  "generated_at": "2026-08-07T06:16:43.575803+00:00",
+  "window_start": "2026-08-07",
+  "window_end": "2026-08-14",
   "source": "Pickx via iptv-org/epg",
   "channels": [
     "France 2",
@@ -34,6 +34,17 @@
     "des",
     "sur"
   ],
-  "count": 0,
-  "programmes": []
+  "count": 1,
+  "programmes": [
+    {
+      "start": "2026-08-13T21:00:00+00:00",
+      "stop": "2026-08-13T22:30:00+00:00",
+      "channel": "France 3",
+      "title": "Meurtres à...",
+      "subtitle": "Meurtres à Avignon",
+      "description": "« MEURTRES À » est une collection de films entre thrillers et enquêtes policières, se déroulant chacun dans une région différente où les légendes ancestrales sont encore présentes... Découvrant une scène de crime des plus étranges, un duo d'enquêteurs souvent en conflit se lance à la recherche des coupables, affrontant en parallèle leur propre vérité, quitte à se mettre en danger. Mélangeant présent et passé, brouillant les pistes avec brio, chaque intrigue se déroule sur fond de mystères et croyances locales, aiguisant le suspense.",
+      "category": "Séries",
+      "icon": ""
+    }
+  ]
 }
