@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-15T09:00:09.478049+00:00",
-  "window_start": "2026-08-15",
-  "window_end": "2026-08-22",
+  "generated_at": "2026-08-16T05:40:13.384019+00:00",
+  "window_start": "2026-08-16",
+  "window_end": "2026-08-23",
   "source": "Pickx via iptv-org/epg",
   "channels": [
     "France 2",
@@ -34,18 +34,8 @@
     "des",
     "sur"
   ],
-  "count": 2,
+  "count": 4,
   "programmes": [
-    {
-      "start": "2026-08-15T19:10:00+00:00",
-      "stop": "2026-08-15T20:40:00+00:00",
-      "channel": "France 3",
-      "title": "Meurtres à...",
-      "subtitle": "Meurtres à Arles",
-      "description": "Sarah Cortes est issue d'une famille de manadiers qui élève des taureaux depuis plusieurs générations. Sarah doit se marier à la fin de la semaine avec Louis qu'elle connaît depuis toujours. Le commandant Lucas Pujol est un jeune officier modèle surdiplômé. Entre Sarah et Lucas, une amitié est née comme une évidence, entre le feu et la glace. Deux opposés qui s'attirent sans pour autant reconnaître leurs sentiments, des sentiments certainement plus profonds. Dans les gradins des arènes d'Arles, c'est l'élection de la nouvelle reine de la ville. Mais à l'annonce de son nom, Aline Garnier, ne se présente pas. Soudain la calèche censée emmener la reine pour sa présentation au public, déboule en trombe dans les arènes. Pas de reine à son bord, mais un corps inerte : celui du président de l'association de l'élection. La reine Aline, en vraie Arlésienne, a disparu, ne laissant qu'un pic à cheveux ensanglanté derrière elle.",
-      "category": "Séries",
-      "icon": ""
-    },
     {
       "start": "2026-08-20T20:55:00+00:00",
       "stop": "2026-08-20T22:25:00+00:00",
@@ -53,6 +43,36 @@
       "title": "Meurtres à...",
       "subtitle": "Meurtres à Marie-Galante",
       "description": "Le corps de Roméo Saldes, un éducateur pour jeunes en difficulté, est retrouvé noyé dans la Mare au punch. La capitaine Opélie Villedieu est chargée de l'enquête, assistée d'Alban, son jeune subordonné marie-galantais. De son côté, le commandant Léopold Lacarrière, du SRPJ de Versailles, est de retour dans son île natale de Marie-Galante avec pour projet d'eìcrire un roman policier. Mais à son arrivée, son filleul Pierre-Henri est introuvable : Léo apprend qu'il avait fait quelques mois de prison pour un vol de voiture. Roméo, son ancien éducateur, avait préféré le signaler à la police plutôt qu'il finisse par commettre un délit plus grave. Pierre-Henri l'avait alors publiquement menacé de mort.",
+      "category": "Séries",
+      "icon": ""
+    },
+    {
+      "start": "2026-08-22T18:57:00+00:00",
+      "stop": "2026-08-22T20:39:00+00:00",
+      "channel": "La Une",
+      "title": "Meurtres à Sandhamn",
+      "subtitle": "Linnea",
+      "description": "Un dirigeant d'entreprise meurt de façon spectaculaire lors de sa propre réception, organisée à l'occasion du lancement d'une fondation portant le nom de sa fille décédée. Alexander et Valpen sont chargés de l'enquête, tandis que leur nouvelle supérieure, Rakel, fait appel à Nora en tant que procureure. Alexander et Nora n'ont plus eu de contact depuis la trahison de cette dernière. Nora en est profondément affectée, mais Alexander ne semble pas vouloir lui adresser la parole.",
+      "category": "Séries",
+      "icon": ""
+    },
+    {
+      "start": "2026-08-22T19:10:00+00:00",
+      "stop": "2026-08-22T20:45:00+00:00",
+      "channel": "France 3",
+      "title": "Meurtres à...",
+      "subtitle": "Meurtres dans le Cantal",
+      "description": "Le corps de Yann Privat, restaurateur réputé, est retrouvé empoisonné et flottant dans un lac du Cézallier. L'homme était magouilleur en affaire, les suspects ne manquent pas ; mais ici les locaux préfèrent dire que c'est un méfait du Drac, un lutin malfaisant qui empoisonne la vie des gens. Quand un deuxième chef est lui aussi victime d'un empoisonnement fatal, nos deux gendarmes, les capitaines Frédéric Dussaut et Sarah Waro, s'interrogent : la mort d'une restauratrice, quelques mois plus tôt, ne serait-elle pas, également, liée à cette affaire ? Ensemble, ils vont devoir résoudre l'enquête avant qu'un nouvel assassinat n'ait lieu, tout en se confrontant au deuil impossible de leur fils, survenu un an plus tôt, par accident à la Réunion.",
+      "category": "Séries",
+      "icon": ""
+    },
+    {
+      "start": "2026-08-22T20:45:00+00:00",
+      "stop": "2026-08-22T22:20:00+00:00",
+      "channel": "France 3",
+      "title": "Meurtres à...",
+      "subtitle": "Meurtres en Bourgogne",
+      "description": "Le cadavre d'une jeune et talentueuse restauratrice est retrouvé aux forges de Buffon. Deux policiers vont enquêter ensemble : Mylène dont le père, patron de la police locale, a disparu une quinzaine d'années auparavant, et Frédéric, qui était sous les ordres de celui-ci.",
       "category": "Séries",
       "icon": ""
     }
