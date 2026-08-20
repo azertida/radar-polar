@@ -5,13 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <title>🔍 Radar Polar</title>
 
-    <!-- PWA iOS configuration (sans manifest) -->
+    <!-- PWA : configuration commune -->
     <meta name="description" content="Radar des téléfilms policiers du terroir français">
     <meta name="theme-color" content="#1a1a2e">
+
+    <!-- iOS (Safari) : pas de manifest requis -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-title" content="Radar Polar">
     <link rel="apple-touch-icon" href="icon.png">
+
+    <!-- Android (Chrome) : manifest indispensable pour l'installation -->
+    <link rel="manifest" href="manifest.json">
 
     <style>
         * {
@@ -448,6 +453,14 @@
 
         // Chargement initial
         load();
+
+        // Service worker « vide » : aucun cache, il sert uniquement à
+        // rendre l'appli installable sous Chrome/Android. Les données
+        // restent toujours fraîches (cache-busting du fetch ci-dessus).
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('service-worker.js')
+                .catch(err => console.log('Service worker non enregistré :', err));
+        }
     </script>
 </body>
 </html>

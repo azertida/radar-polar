@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <title>Radar Polar</title>
+  <defs>
+    <linearGradient id="fond" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#6979E2"/>
+      <stop offset="50%"  stop-color="#6F66C6"/>
+      <stop offset="100%" stop-color="#7552AA"/>
+    </linearGradient>
+
+    <radialGradient id="lentille" cx="42%" cy="40%" r="78%">
+      <stop offset="0%"   stop-color="#565277"/>
+      <stop offset="55%"  stop-color="#33305A"/>
+      <stop offset="100%" stop-color="#211E45"/>
+    </radialGradient>
+
+    <clipPath id="cadre">
+      <rect x="0" y="0" width="512" height="512" rx="117" ry="117"/>
+    </clipPath>
+  </defs>
+
+  <!-- Fond -->
+  <rect x="0" y="0" width="512" height="512" rx="117" ry="117" fill="url(#fond)"/>
+
+  <!-- Filigrane : lignes de balayage -->
+  <g clip-path="url(#cadre)" stroke="#FFFFFF" stroke-opacity="0.10" stroke-width="3">
+    <line x1="0" y1="61"  x2="512" y2="61"/>
+    <line x1="0" y1="83"  x2="512" y2="83"/>
+    <line x1="0" y1="101" x2="512" y2="101"/>
+    <line x1="0" y1="408" x2="512" y2="408"/>
+    <line x1="0" y1="427" x2="512" y2="427"/>
+    <line x1="0" y1="448" x2="512" y2="448"/>
+  </g>
+
+  <!-- Manche : gaine blanche, puis âme sombre -->
+  <line x1="333" y1="333" x2="419" y2="419"
+        stroke="#FFFFFF" stroke-width="36" stroke-linecap="round"/>
+  <line x1="342" y1="342" x2="408" y2="408"
+        stroke="#1C1A38" stroke-width="13" stroke-linecap="round"/>
+
+  <!-- Lentille et cerclage -->
+  <circle cx="235" cy="235" r="116" fill="url(#lentille)"/>
+  <circle cx="235" cy="235" r="128" fill="none" stroke="#FFFFFF" stroke-width="21"/>
+
+  <!-- Antennes -->
+  <g stroke="#FFFFFF" stroke-width="6" stroke-linecap="round">
+    <line x1="196" y1="169" x2="209" y2="193"/>
+    <line x1="273" y1="169" x2="261" y2="193"/>
+  </g>
+
+  <!-- Écran -->
+  <rect x="177" y="193" width="115" height="80" rx="12" ry="12"
+        fill="none" stroke="#FFFFFF" stroke-width="6"/>
+
+  <!-- Témoin -->
+  <circle cx="235" cy="233" r="12" fill="#DC2626"/>
+</svg>
