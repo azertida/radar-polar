@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T20:21:25.823013+00:00",
-  "window_start": "2026-08-20",
-  "window_end": "2026-08-27",
+  "generated_at": "2026-08-21T05:46:24.345067+00:00",
+  "window_start": "2026-08-21",
+  "window_end": "2026-08-28",
   "source": "Pickx via iptv-org/epg",
   "channels": [
     "France 2",
@@ -34,18 +34,8 @@
     "des",
     "sur"
   ],
-  "count": 4,
+  "count": 3,
   "programmes": [
-    {
-      "start": "2026-08-20T20:55:00+00:00",
-      "stop": "2026-08-20T22:25:00+00:00",
-      "channel": "France 3",
-      "title": "Meurtres à...",
-      "subtitle": "Meurtres à Marie-Galante",
-      "description": "Le corps de Roméo Saldes, un éducateur pour jeunes en difficulté, est retrouvé noyé dans la Mare au punch. La capitaine Opélie Villedieu est chargée de l'enquête, assistée d'Alban, son jeune subordonné marie-galantais. De son côté, le commandant Léopold Lacarrière, du SRPJ de Versailles, est de retour dans son île natale de Marie-Galante avec pour projet d'eìcrire un roman policier. Mais à son arrivée, son filleul Pierre-Henri est introuvable : Léo apprend qu'il avait fait quelques mois de prison pour un vol de voiture. Roméo, son ancien éducateur, avait préféré le signaler à la police plutôt qu'il finisse par commettre un délit plus grave. Pierre-Henri l'avait alors publiquement menacé de mort.",
-      "category": "Séries",
-      "icon": ""
-    },
     {
       "start": "2026-08-22T18:57:00+00:00",
       "stop": "2026-08-22T20:39:00+00:00",
