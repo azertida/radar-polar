@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-22T09:01:25.091190+00:00",
-  "window_start": "2026-08-22",
-  "window_end": "2026-08-29",
+  "generated_at": "2026-08-23T05:42:39.096838+00:00",
+  "window_start": "2026-08-23",
+  "window_end": "2026-08-30",
   "source": "Pickx via iptv-org/epg",
   "channels": [
     "France 2",
@@ -37,32 +37,32 @@
   "count": 3,
   "programmes": [
     {
-      "start": "2026-08-22T18:58:00+00:00",
-      "stop": "2026-08-22T20:38:00+00:00",
+      "start": "2026-08-29T18:59:00+00:00",
+      "stop": "2026-08-29T20:39:00+00:00",
       "channel": "La Une",
       "title": "Meurtres à Sandhamn",
-      "subtitle": "Linnea",
-      "description": "Un dirigeant d'entreprise meurt de façon spectaculaire lors de sa propre réception, organisée à l'occasion du lancement d'une fondation portant le nom de sa fille décédée. Alexander et Valpen sont chargés de l'enquête, tandis que leur nouvelle supérieure, Rakel, fait appel à Nora en tant que procureure. Alexander et Nora n'ont plus eu de contact depuis la trahison de cette dernière. Nora en est profondément affectée, mais Alexander ne semble pas vouloir lui adresser la parole.",
+      "subtitle": "Rakel",
+      "description": "La nouvelle cheffe de la police, Rakel, et Nora sont devenues amies. Le fils de Rakel tue accidentellement un homme à qui il devait de l'argent. En cherchant à aider son fils à dissimuler le meurtre, Rakel se retrouve personnellement impliquée dans l'affaire. Elle met tout en œuvre pour pousser Alexander et Valpen à abandonner leur enquête. De son côté, Nora invite Alexander à déjeuner dans une nouvelle tentative de réconciliation. Mais leur rendez-vous est loin de se dérouler comme elle l'espérait.",
       "category": "Séries",
       "icon": ""
     },
     {
-      "start": "2026-08-22T19:10:00+00:00",
-      "stop": "2026-08-22T20:45:00+00:00",
+      "start": "2026-08-29T19:10:00+00:00",
+      "stop": "2026-08-29T20:40:00+00:00",
       "channel": "France 3",
       "title": "Meurtres à...",
-      "subtitle": "Meurtres dans le Cantal",
-      "description": "Le corps de Yann Privat, restaurateur réputé, est retrouvé empoisonné et flottant dans un lac du Cézallier. L'homme était magouilleur en affaire, les suspects ne manquent pas ; mais ici les locaux préfèrent dire que c'est un méfait du Drac, un lutin malfaisant qui empoisonne la vie des gens. Quand un deuxième chef est lui aussi victime d'un empoisonnement fatal, nos deux gendarmes, les capitaines Frédéric Dussaut et Sarah Waro, s'interrogent : la mort d'une restauratrice, quelques mois plus tôt, ne serait-elle pas, également, liée à cette affaire ? Ensemble, ils vont devoir résoudre l'enquête avant qu'un nouvel assassinat n'ait lieu, tout en se confrontant au deuil impossible de leur fils, survenu un an plus tôt, par accident à la Réunion.",
+      "subtitle": "Meurtres à Fontainebleau",
+      "description": "Un pilote de quad est retrouvé mort en forêt de Fontainebleau, tué par un cavalier mystérieux évoquant la légende du Grand Veneur. L'enquêtrice Pauline Laroche, de retour dans sa ville natale, doit collaborer avec Nicolas Dupret, un gendarme équestre qu'elle a blessé par le passé. Tandis que les meurtres se multiplient, tous deux doivent affronter leurs traumatismes pour arrêter un tueur qui semble vouloir protéger la forêt à tout prix...",
       "category": "Séries",
       "icon": ""
     },
     {
-      "start": "2026-08-22T20:45:00+00:00",
-      "stop": "2026-08-22T22:20:00+00:00",
+      "start": "2026-08-29T20:40:00+00:00",
+      "stop": "2026-08-29T22:20:00+00:00",
       "channel": "France 3",
       "title": "Meurtres à...",
-      "subtitle": "Meurtres en Bourgogne",
-      "description": "Le cadavre d'une jeune et talentueuse restauratrice est retrouvé aux forges de Buffon. Deux policiers vont enquêter ensemble : Mylène dont le père, patron de la police locale, a disparu une quinzaine d'années auparavant, et Frédéric, qui était sous les ordres de celui-ci.",
+      "subtitle": "Meurtres à Blois",
+      "description": "Lors d'une reconstitution historique au Château de Blois, le duc de Guise, Arthur, âgé de 20 ans, est accusé du meurtre d'Henry III, l'industriel du groupe pharmaceutique Bellion. Alice Deschamps, capitaine de police et belle-mère d'Arthur, et Denis Frécant, commandant de police à Blois et père d'Arthur, donc l'ex-mari d'Alice, vont tenter de l'innocenter et vivre la difficile cohabitation de deux êtres qui se sont aimés et dont le passé douloureux réapparaît à chaque étape de l'enquête.",
       "category": "Séries",
       "icon": ""
     }
