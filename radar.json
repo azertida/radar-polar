@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-29T13:59:51.305761+00:00",
-  "window_start": "2026-08-29",
-  "window_end": "2026-09-05",
+  "generated_at": "2026-08-30T10:28:25.402999+00:00",
+  "window_start": "2026-08-30",
+  "window_end": "2026-09-06",
   "source": "Pickx via iptv-org/epg",
   "channels": [
     "France 2",
@@ -34,38 +34,8 @@
     "des",
     "sur"
   ],
-  "count": 6,
+  "count": 7,
   "programmes": [
-    {
-      "start": "2026-08-29T19:00:00+00:00",
-      "stop": "2026-08-29T20:41:00+00:00",
-      "channel": "La Une",
-      "title": "Meurtres à Sandhamn",
-      "subtitle": "Rakel",
-      "description": "La nouvelle cheffe de la police, Rakel, et Nora sont devenues amies. Le fils de Rakel tue accidentellement un homme à qui il devait de l'argent. En cherchant à aider son fils à dissimuler le meurtre, Rakel se retrouve personnellement impliquée dans l'affaire. Elle met tout en œuvre pour pousser Alexander et Valpen à abandonner leur enquête. De son côté, Nora invite Alexander à déjeuner dans une nouvelle tentative de réconciliation. Mais leur rendez-vous est loin de se dérouler comme elle l'espérait.",
-      "category": "Séries",
-      "icon": ""
-    },
-    {
-      "start": "2026-08-29T19:10:00+00:00",
-      "stop": "2026-08-29T20:40:00+00:00",
-      "channel": "France 3",
-      "title": "Meurtres à...",
-      "subtitle": "Meurtres à Fontainebleau",
-      "description": "Un pilote de quad est retrouvé mort en forêt de Fontainebleau, tué par un cavalier mystérieux évoquant la légende du Grand Veneur. L'enquêtrice Pauline Laroche, de retour dans sa ville natale, doit collaborer avec Nicolas Dupret, un gendarme équestre qu'elle a blessé par le passé. Tandis que les meurtres se multiplient, tous deux doivent affronter leurs traumatismes pour arrêter un tueur qui semble vouloir protéger la forêt à tout prix...",
-      "category": "Séries",
-      "icon": ""
-    },
-    {
-      "start": "2026-08-29T20:40:00+00:00",
-      "stop": "2026-08-29T22:20:00+00:00",
-      "channel": "France 3",
-      "title": "Meurtres à...",
-      "subtitle": "Meurtres à Blois",
-      "description": "Lors d'une reconstitution historique au Château de Blois, le duc de Guise, Arthur, âgé de 20 ans, est accusé du meurtre d'Henry III, l'industriel du groupe pharmaceutique Bellion.",
-      "category": "Séries",
-      "icon": ""
-    },
     {
       "start": "2026-09-02T14:16:00+00:00",
       "stop": "2026-09-02T15:11:00+00:00",
@@ -93,6 +63,46 @@
       "title": "Les secrets du Finistère",
       "subtitle": "Le garçon qui marchait sur les vagues",
       "description": "Un surfeur a été tué d'une balle dans le coeur à La Torche. Quand le capitaine Laubier découvre sur l'ordinateur de la victime la vidéo d'un cours de Le Dantec sur la ville engloutie d'Ys, il la contacte. Les intuitions de la jeune femme la mènent sur des pistes inattendues.",
+      "category": "Séries",
+      "icon": ""
+    },
+    {
+      "start": "2026-09-05T19:10:00+00:00",
+      "stop": "2026-09-05T20:40:00+00:00",
+      "channel": "France 3",
+      "title": "Meurtres à...",
+      "subtitle": "Meurtres au Puy-en-Velay",
+      "description": "La lieutenant Marion Cazale, 35 ans, se rend en pleine nuit dans la cathédrale pour faire un voeu sur la \"Pierre des Fièvres\", dont la légende rapporte qu'elle guérit de tous les maux. Elle y découvre le cadavre d'une jeune femme allongée, comme endormie. Même le légiste ne parvient pas à définir les raisons de son décès. Elle aurait le syndrome du coeur brisé. Qu'allait-elle demander à la pierre sacrée ? Et Marion ? Notre héroïne est en situation de handicap, elle est en train de perdre la vue des suites d'un diabète de type 1. La jeune lieutenant va faire équipe avec le capitaine Jiménez, 45 ans, récemment muté au Puy par sa hiérarchie, après avoir commis une bavure qui l'empêche de dormir...",
+      "category": "Séries",
+      "icon": ""
+    },
+    {
+      "start": "2026-09-05T19:14:00+00:00",
+      "stop": "2026-09-05T20:55:00+00:00",
+      "channel": "La Une",
+      "title": "Meurtres à Sandhamn",
+      "subtitle": "Amanda",
+      "description": "Un braquage tourne mal et se transforme en enlèvement involontaire lorsque les malfaiteurs s'emparent d'un bateau sans se rendre compte que la petite fille du propriétaire se trouve encore à bord. Alexander et Valpen sont les premiers à intervenir, mais ne parviennent pas à empêcher la fuite des braqueurs. Nora découvre qu'une fenêtre a été brisée dans la maison de son voisin. En s'en approchant, elle se retrouve au cœur des événements. De leur côté, Nora et Alexander ont commencé, chacun de leur côté, à regarder des bagues de fiançailles. Ils seront bientôt prêts à se marier.",
+      "category": "Séries",
+      "icon": ""
+    },
+    {
+      "start": "2026-09-05T22:15:00+00:00",
+      "stop": "2026-09-05T23:50:00+00:00",
+      "channel": "France 3",
+      "title": "Meurtres à...",
+      "subtitle": "Meurtres à Figeac",
+      "description": "Pour la première fois depuis un an, Manon retourne à Figeac pour un bref séjour. Après la disparition d'Alexandre, son mari, dans un accident de la route, elle a préféré s'installer à Toulouse et poursuivre son activité de lieutenant de police dans la ville rose. Le temps d'une journée, pour commémorer le souvenir d'Alexandre, Manon retrouve ceux qui l'avaient presque adoptée. Et les retrouvailles ne sont pas simples Sauf avec Olivier Peyrusse, le frère d'Alexandre. Olivier est un des anciens collègues de Manon. Et comme toute son équipe, il regrette profondément que Manon soit partie. Alors quand Monique Neyrolle, chef d'une famille de propriétaires terriens, est retrouvée momifiée au musée de Figeac, Manon accepte de suivre son beau-frère sur les lieux du crime pour saluer les autres gendarmes.",
+      "category": "Séries",
+      "icon": ""
+    },
+    {
+      "start": "2026-09-05T23:50:00+00:00",
+      "stop": "2026-09-06T01:20:00+00:00",
+      "channel": "France 3",
+      "title": "Meurtres à...",
+      "subtitle": "Meurtres à Arles",
+      "description": "Sarah Cortes est issue d'une famille de manadiers qui élève des taureaux depuis plusieurs générations. Sarah doit se marier à la fin de la semaine avec Louis qu'elle connaît depuis toujours. Le commandant Lucas Pujol est un jeune officier modèle surdiplômé. Entre Sarah et Lucas, une amitié est née comme une évidence, entre le feu et la glace. Deux opposés qui s'attirent sans pour autant reconnaître leurs sentiments, des sentiments certainement plus profonds. Dans les gradins des arènes d'Arles, c'est l'élection de la nouvelle reine de la ville. Mais à l'annonce de son nom, Aline Garnier, ne se présente pas. Soudain la calèche censée emmener la reine pour sa présentation au public, déboule en trombe dans les arènes. Pas de reine à son bord, mais un corps inerte : celui du président de l'association de l'élection. La reine Aline, en vraie Arlésienne, a disparu, ne laissant qu'un pic à cheveux ensanglanté derrière elle.",
       "category": "Séries",
       "icon": ""
     }
