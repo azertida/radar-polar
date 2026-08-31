@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T13:59:32.542007+00:00",
-  "window_start": "2026-08-30",
-  "window_end": "2026-09-06",
+  "generated_at": "2026-08-31T11:34:27.498996+00:00",
+  "window_start": "2026-08-31",
+  "window_end": "2026-09-07",
   "source": "Pickx via iptv-org/epg",
   "channels": [
     "France 2",
@@ -34,7 +34,7 @@
     "des",
     "sur"
   ],
-  "count": 7,
+  "count": 8,
   "programmes": [
     {
       "start": "2026-09-02T14:16:00+00:00",
@@ -103,6 +103,16 @@
       "title": "Meurtres à...",
       "subtitle": "Meurtres à Arles",
       "description": "Sarah Cortes est issue d'une famille de manadiers qui élève des taureaux depuis plusieurs générations. Sarah doit se marier à la fin de la semaine avec Louis qu'elle connaît depuis toujours. Le commandant Lucas Pujol est un jeune officier modèle surdiplômé. Entre Sarah et Lucas, une amitié est née comme une évidence, entre le feu et la glace. Deux opposés qui s'attirent sans pour autant reconnaître leurs sentiments, des sentiments certainement plus profonds. Dans les gradins des arènes d'Arles, c'est l'élection de la nouvelle reine de la ville. Mais à l'annonce de son nom, Aline Garnier, ne se présente pas. Soudain la calèche censée emmener la reine pour sa présentation au public, déboule en trombe dans les arènes. Pas de reine à son bord, mais un corps inerte : celui du président de l'association de l'élection. La reine Aline, en vraie Arlésienne, a disparu, ne laissant qu'un pic à cheveux ensanglanté derrière elle.",
+      "category": "Séries",
+      "icon": ""
+    },
+    {
+      "start": "2026-09-06T01:20:00+00:00",
+      "stop": "2026-09-06T02:55:00+00:00",
+      "channel": "France 3",
+      "title": "Meurtres à...",
+      "subtitle": "Meurtres dans le Cantal",
+      "description": "Le corps de Yann Privat, restaurateur réputé, est retrouvé empoisonné et flottant dans un lac du Cézallier. L'homme était magouilleur en affaire, les suspects ne manquent pas ; mais ici les locaux préfèrent dire que c'est un méfait du Drac, un lutin malfaisant qui empoisonne la vie des gens. Quand un deuxième chef est lui aussi victime d'un empoisonnement fatal, nos deux gendarmes, les capitaines Frédéric Dussaut et Sarah Waro, s'interrogent : la mort d'une restauratrice, quelques mois plus tôt, ne serait-elle pas, également, liée à cette affaire ? Ensemble, ils vont devoir résoudre l'enquête avant qu'un nouvel assassinat n'ait lieu, tout en se confrontant au deuil impossible de leur fils, survenu un an plus tôt, par accident à la Réunion.",
       "category": "Séries",
       "icon": ""
     }
