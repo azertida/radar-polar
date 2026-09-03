@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-02T12:57:14.949907+00:00",
-  "window_start": "2026-09-02",
-  "window_end": "2026-09-09",
+  "generated_at": "2026-09-03T09:43:53.582654+00:00",
+  "window_start": "2026-09-03",
+  "window_end": "2026-09-10",
   "source": "Pickx via iptv-org/epg",
   "channels": [
     "France 2",
@@ -34,21 +34,11 @@
     "des",
     "sur"
   ],
-  "count": 8,
+  "count": 7,
   "programmes": [
     {
-      "start": "2026-09-02T14:22:00+00:00",
-      "stop": "2026-09-02T15:17:00+00:00",
-      "channel": "La Une",
-      "title": "Les enquêtes de Murdoch",
-      "subtitle": "Le crime du Toronto Express",
-      "description": "Lorsque leur train déraille, Ogden et Brackenreid soupçonnent un sabotage pour cacher un meurtre.",
-      "category": "Séries",
-      "icon": ""
-    },
-    {
-      "start": "2026-09-03T08:25:00+00:00",
-      "stop": "2026-09-03T09:17:00+00:00",
+      "start": "2026-09-03T08:27:00+00:00",
+      "stop": "2026-09-03T09:21:00+00:00",
       "channel": "Tipik",
       "title": "Les enquêtes de Murdoch",
       "subtitle": "Le crime du Toronto Express",
