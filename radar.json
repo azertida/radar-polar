@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T12:59:39.268018+00:00",
-  "window_start": "2026-09-03",
-  "window_end": "2026-09-10",
+  "generated_at": "2026-09-04T09:37:53.005635+00:00",
+  "window_start": "2026-09-04",
+  "window_end": "2026-09-11",
   "source": "Pickx via iptv-org/epg",
   "channels": [
     "France 2",
@@ -34,28 +34,8 @@
     "des",
     "sur"
   ],
-  "count": 7,
+  "count": 5,
   "programmes": [
-    {
-      "start": "2026-09-03T08:27:00+00:00",
-      "stop": "2026-09-03T09:21:00+00:00",
-      "channel": "Tipik",
-      "title": "Les enquêtes de Murdoch",
-      "subtitle": "Le crime du Toronto Express",
-      "description": "Lorsque leur train déraille, Ogden et Brackenreid soupçonnent un sabotage pour cacher un meurtre.",
-      "category": "Séries",
-      "icon": ""
-    },
-    {
-      "start": "2026-09-03T19:05:00+00:00",
-      "stop": "2026-09-03T20:41:00+00:00",
-      "channel": "TV5 Monde",
-      "title": "Les secrets du Finistère",
-      "subtitle": "Le garçon qui marchait sur les vagues",
-      "description": "Un surfeur a été tué d'une balle dans le coeur à La Torche. Quand le capitaine Laubier découvre sur l'ordinateur de la victime la vidéo d'un cours de Le Dantec sur la ville engloutie d'Ys, il la contacte. Les intuitions de la jeune femme la mènent sur des pistes inattendues.",
-      "category": "Séries",
-      "icon": ""
-    },
     {
       "start": "2026-09-05T19:10:00+00:00",
       "stop": "2026-09-05T20:40:00+00:00",
@@ -67,8 +47,8 @@
       "icon": ""
     },
     {
-      "start": "2026-09-05T19:14:00+00:00",
-      "stop": "2026-09-05T20:55:00+00:00",
+      "start": "2026-09-05T19:19:00+00:00",
+      "stop": "2026-09-05T21:00:00+00:00",
       "channel": "La Une",
       "title": "Meurtres à Sandhamn",
       "subtitle": "Amanda",
