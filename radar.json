@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-10T13:06:41.637823+00:00",
-  "window_start": "2026-09-10",
-  "window_end": "2026-09-17",
+  "generated_at": "2026-09-11T09:37:42.114618+00:00",
+  "window_start": "2026-09-11",
+  "window_end": "2026-09-18",
   "source": "Pickx via iptv-org/epg",
   "channels": [
     "France 2",
@@ -34,7 +34,7 @@
     "des",
     "sur"
   ],
-  "count": 2,
+  "count": 3,
   "programmes": [
     {
       "start": "2026-09-12T19:10:00+00:00",
@@ -53,6 +53,16 @@
       "title": "Meurtres à...",
       "subtitle": "Meurtres à Orléans",
       "description": "Durant la procession des fêtes de Jeanne d'Arc, Clotilde Duvivier, la jeune fille qui incarnait Jeanne d'Arc, est assassinée d'un carreau d'arbalète en plein cœur. Une partie de phrase en latin est inscrite sur le carreau en question. Le commandant Charlotte Marat va enquêter sur l'affaire avec l'aide de son gendre Philippe Cransac, lui-même policier...",
+      "category": "Séries",
+      "icon": ""
+    },
+    {
+      "start": "2026-09-17T19:10:00+00:00",
+      "stop": "2026-09-17T20:45:00+00:00",
+      "channel": "France 3",
+      "title": "Meurtres à...",
+      "subtitle": "Meurtres à Colmar",
+      "description": "Un chirurgien arrive à Colmar pour enquêter sur la mort de son fils policier. Il découvre un meurtre étrange et tente de prouver l'innocence de son fils accusé de drogue.",
       "category": "Séries",
       "icon": ""
     }
