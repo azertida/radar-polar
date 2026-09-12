@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-11T13:00:00.423209+00:00",
-  "window_start": "2026-09-11",
-  "window_end": "2026-09-18",
+  "generated_at": "2026-09-12T09:16:20.816033+00:00",
+  "window_start": "2026-09-12",
+  "window_end": "2026-09-19",
   "source": "Pickx via iptv-org/epg",
   "channels": [
     "France 2",
@@ -42,7 +42,7 @@
       "channel": "France 3",
       "title": "Meurtres à...",
       "subtitle": "Meurtres à Château-Thierry",
-      "description": "À Château-Thierry, pays de Jean de La Fontaine, le président du tribunal est retrouvé mort sur les marches du palais de justice. Sur le corps, le meurtrier a laissé des indices faisant référence à la fable \"Les Animaux malades de la peste\". L'enquête est confiée au capitaine Laetitia Alfonsi, qui n'est autre que la fille illégitime de la victime. Lorsque Thibault, le fils légitime, vient la menacer de révéler son lien de parenté, elle se voit obligée de faire équipe avec ce demi-frère arrogant. Un deuxième meurtre inspiré par la fable va précipiter la collaboration de ce duo inattendu. Ensemble, frère et soeur apprendront à faire équipe et peut-être même à se voir comme une famille.",
+      "description": "Dans les gorges du Verdon, enquête sur le meurtre d'un homme de 78 ans, retrouvé mort sur le barrage de Castillon dans une position étrange.",
       "category": "Séries",
       "icon": ""
     },
