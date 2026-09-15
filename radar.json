@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-14T15:14:16.740777+00:00",
-  "window_start": "2026-09-14",
-  "window_end": "2026-09-21",
+  "generated_at": "2026-09-15T10:02:40.169718+00:00",
+  "window_start": "2026-09-15",
+  "window_end": "2026-09-22",
   "source": "Pickx via iptv-org/epg",
   "channels": [
     "France 2",
@@ -34,7 +34,7 @@
     "des",
     "sur"
   ],
-  "count": 2,
+  "count": 3,
   "programmes": [
     {
       "start": "2026-09-17T19:10:00+00:00",
@@ -54,6 +54,16 @@
       "subtitle": "",
       "description": "Laguiole, dans l'Aubrac. Ludivine, une écrivaine locale et son ami coutelier, découvrent le cadavre d'un homme, pendu et torturé à la manière du \" Voleur d'Alpuech \". Ludivine est d'autant plus troublée par cette découverte qu'elle a écrit un livre sur ce voleur qui sévissait il y a plus de deux cents ans aux dépens des notables de la région. L'enquête est confiée au gendarme local Victor, la quarantaine, et à sa filleule gendarme Julie, 25 ans, qui sort de Saint-Cyr. Ils identifient aussitôt la victime comme étant Laguarrigue, propriétaire d'une célèbre fonderie de couteaux, et surtout ils apprennent qu'un inconnu déguisé en Voleur d'Alpuech a été vu roder la nuit du meurtre...",
       "category": "Cinéma",
+      "icon": ""
+    },
+    {
+      "start": "2026-09-21T22:42:00+00:00",
+      "stop": "2026-09-21T23:29:00+00:00",
+      "channel": "TF1",
+      "title": "New York, Unité Spéciale",
+      "subtitle": "Meurtre sur Internet",
+      "description": "Une jeune fille se présente à l'Unité Spéciale pour les Victimes et affirme qu'elle a été violée par un homme rencontré sur Internet. L'inspecteur Munch se fait alors passer pour un enfant sur Internet, afin d'arrêter le coupable... Il découvre par la même occasion tout un réseau de pédophilie...",
+      "category": "Séries",
       "icon": ""
     }
   ]
