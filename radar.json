@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-17T13:45:55.315358+00:00",
-  "window_start": "2026-09-17",
-  "window_end": "2026-09-24",
+  "generated_at": "2026-09-18T09:42:20.257344+00:00",
+  "window_start": "2026-09-18",
+  "window_end": "2026-09-25",
   "source": "Pickx via iptv-org/epg",
   "channels": [
     "France 2",
@@ -37,18 +37,8 @@
   "count": 3,
   "programmes": [
     {
-      "start": "2026-09-17T19:10:00+00:00",
-      "stop": "2026-09-17T20:45:00+00:00",
-      "channel": "France 3",
-      "title": "Meurtres à...",
-      "subtitle": "Meurtres à Colmar",
-      "description": "Un chirurgien arrive à Colmar pour enquêter sur la mort de son fils policier. Il découvre un meurtre étrange et tente de prouver l'innocence de son fils accusé de drogue.",
-      "category": "Séries",
-      "icon": ""
-    },
-    {
-      "start": "2026-09-20T18:54:00+00:00",
-      "stop": "2026-09-20T20:42:00+00:00",
+      "start": "2026-09-20T18:53:00+00:00",
+      "stop": "2026-09-20T20:41:00+00:00",
       "channel": "La Une",
       "title": "Meurtres à Laguiole",
       "subtitle": "",
@@ -63,6 +53,16 @@
       "title": "New York, Unité Spéciale",
       "subtitle": "Meurtre sur Internet",
       "description": "Une adolescente de seize ans affirme avoir été violée par un homme rencontré via internet. Puis.",
+      "category": "Séries",
+      "icon": ""
+    },
+    {
+      "start": "2026-09-24T19:10:00+00:00",
+      "stop": "2026-09-24T20:50:00+00:00",
+      "channel": "France 3",
+      "title": "Meurtres à...",
+      "subtitle": "Meurtres à Tahiti",
+      "description": "Au lieu-dit de Teahupoo, sur l'île de Tahiti, il n'y a pas que des surfeurs attirés par \"la vague la plus dangereuse du monde\". Il y a aussi un meurtrier, inspiré par l'ancien culte de l'île. Le corps mutilé d'un homme a en effet été découvert dans le temple sacré d'Oro, le dieu de la guerre. Mareva Umaga, une jeune gendarme tahitienne va devoir faire équipe sur cette affaire avec Philippe Toussaint, fraichement muté sur l'île. Le duo va devoir se faire confiance pour arrêter à temps, celui qui décidé de réveiller la colère d'Oro, avant qu'il ne fasse d'autres victimes...",
       "category": "Séries",
       "icon": ""
     }
