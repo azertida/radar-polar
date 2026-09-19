@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-18T13:08:37.795960+00:00",
-  "window_start": "2026-09-18",
-  "window_end": "2026-09-25",
+  "generated_at": "2026-09-19T09:27:49.854129+00:00",
+  "window_start": "2026-09-19",
+  "window_end": "2026-09-26",
   "source": "Pickx via iptv-org/epg",
   "channels": [
     "France 2",
@@ -34,11 +34,11 @@
     "des",
     "sur"
   ],
-  "count": 3,
+  "count": 5,
   "programmes": [
     {
       "start": "2026-09-20T18:53:00+00:00",
-      "stop": "2026-09-20T20:41:00+00:00",
+      "stop": "2026-09-20T20:42:00+00:00",
       "channel": "La Une",
       "title": "Meurtres à Laguiole",
       "subtitle": "",
@@ -47,8 +47,8 @@
       "icon": ""
     },
     {
-      "start": "2026-09-21T22:44:00+00:00",
-      "stop": "2026-09-21T23:31:00+00:00",
+      "start": "2026-09-21T22:45:00+00:00",
+      "stop": "2026-09-21T23:32:00+00:00",
       "channel": "TF1",
       "title": "New York, Unité Spéciale",
       "subtitle": "Meurtre sur Internet",
@@ -62,7 +62,27 @@
       "channel": "France 3",
       "title": "Meurtres à...",
       "subtitle": "Meurtres à Tahiti",
-      "description": "Au lieu-dit de Teahupoo, sur l'île de Tahiti, il n'y a pas que des surfeurs attirés par \"la vague la plus dangereuse du monde\". Il y a aussi un meurtrier, inspiré par l'ancien culte de l'île. Le corps mutilé d'un homme a en effet été découvert dans le temple sacré d'Oro, le dieu de la guerre. Mareva Umaga, une jeune gendarme tahitienne va devoir faire équipe sur cette affaire avec Philippe Toussaint, fraichement muté sur l'île. Le duo va devoir se faire confiance pour arrêter à temps, celui qui décidé de réveiller la colère d'Oro, avant qu'il ne fasse d'autres victimes...",
+      "description": "Sur l'île de Tahiti, le corps mutilé d'un homme a été découvert dans le temple sacré d'Oro, un ancien dieu de la guerre. La police mène l'enquête.",
+      "category": "Séries",
+      "icon": ""
+    },
+    {
+      "start": "2026-09-25T19:10:00+00:00",
+      "stop": "2026-09-25T20:45:00+00:00",
+      "channel": "France 3",
+      "title": "Les secrets du Finistère",
+      "subtitle": "Le chant des sirènes",
+      "description": "Après la découverte du corps sans vie d'une femme ressemblant étrangement à une sirène, le commandant Jérémy Laubier fait appel à Morgane Le Dantec, devenue professeur de faculté spécialisée dans les mythes et légendes bretonnes, pour l'aider dans son enquête. La découverte d'un bateau de pêche artisanale dérivant sans âme qui vive à bord complexifie encore l'enquête quand l'ADN de la sirène est retrouvé à bord. Quel est le lien entre cette adepte du Mermaiding et ce marin-pêcheur mystérieusement disparu ? Si beaucoup le pensent noyé, Morgane sait qu'il est encore vie et qu'il est la clé de tous ces mystères. C'est donc ce lien que doit découvrir Jérémy qui, même s'il ne croit toujours pas aux intuitions de Morgane, doit bien reconnaître qu'elle est souvent en avance sur l'enquête traditionnelle...",
+      "category": "Séries",
+      "icon": ""
+    },
+    {
+      "start": "2026-09-25T20:45:00+00:00",
+      "stop": "2026-09-25T22:20:00+00:00",
+      "channel": "France 3",
+      "title": "Les secrets du Finistère",
+      "subtitle": "La disparue de Douarnenez",
+      "description": "De retour dans sa Bretagne natale, Morgane Le Dantec, capitaine de gendarmerie, est confrontée à la découverte d'ossements humains après la chute d'un chêne sacré lors d'une tempête. La victime était adepte du druidisme, auquel Morgane a été initiée à l'adolescence par sa marraine, la troublante Katell. Douée d'une capacité de prescience parfois déroutante qu'elle a toujours occultée et qui va se réveiller peu à peu au fil de son enquête, Morgane va devoir renouer avec ses amis de jeunesse, qui tous semblent avoir quelque chose à cacher...",
       "category": "Séries",
       "icon": ""
     }
