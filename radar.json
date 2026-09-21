@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-20T13:12:49.687973+00:00",
-  "window_start": "2026-09-20",
-  "window_end": "2026-09-27",
+  "generated_at": "2026-09-21T10:39:31.488240+00:00",
+  "window_start": "2026-09-21",
+  "window_end": "2026-09-28",
   "source": "Pickx via iptv-org/epg",
   "channels": [
     "France 2",
@@ -34,18 +34,8 @@
     "des",
     "sur"
   ],
-  "count": 5,
+  "count": 4,
   "programmes": [
-    {
-      "start": "2026-09-20T18:53:00+00:00",
-      "stop": "2026-09-20T20:42:00+00:00",
-      "channel": "La Une",
-      "title": "Meurtres à Laguiole",
-      "subtitle": "",
-      "description": "Laguiole, dans l'Aubrac. Ludivine, une écrivaine locale et son ami coutelier, découvrent le cadavre d'un homme, pendu et torturé à la manière du \" Voleur d'Alpuech \". Ludivine est d'autant plus troublée par cette découverte qu'elle a écrit un livre sur ce voleur qui sévissait il y a plus de deux cents ans aux dépens des notables de la région. L'enquête est confiée au gendarme local Victor, la quarantaine, et à sa filleule gendarme Julie, 25 ans, qui sort de Saint-Cyr. Ils identifient aussitôt la victime comme étant Laguarrigue, propriétaire d'une célèbre fonderie de couteaux, et surtout ils apprennent qu'un inconnu déguisé en Voleur d'Alpuech a été vu roder la nuit du meurtre...",
-      "category": "Cinéma",
-      "icon": ""
-    },
     {
       "start": "2026-09-21T22:46:00+00:00",
       "stop": "2026-09-21T23:33:00+00:00",
