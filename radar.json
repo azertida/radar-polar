@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-21T15:18:55.854141+00:00",
-  "window_start": "2026-09-21",
-  "window_end": "2026-09-28",
+  "generated_at": "2026-09-22T09:55:05.434774+00:00",
+  "window_start": "2026-09-22",
+  "window_end": "2026-09-29",
   "source": "Pickx via iptv-org/epg",
   "channels": [
     "France 2",
@@ -34,18 +34,8 @@
     "des",
     "sur"
   ],
-  "count": 4,
+  "count": 3,
   "programmes": [
-    {
-      "start": "2026-09-21T22:46:00+00:00",
-      "stop": "2026-09-21T23:33:00+00:00",
-      "channel": "TF1",
-      "title": "New York, Unité Spéciale",
-      "subtitle": "Meurtre sur Internet",
-      "description": "Une adolescente de seize ans affirme avoir été violée par un homme rencontré via internet. Puis.",
-      "category": "Séries",
-      "icon": ""
-    },
     {
       "start": "2026-09-24T19:10:00+00:00",
       "stop": "2026-09-24T20:50:00+00:00",
