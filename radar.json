@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-23T13:50:19.116300+00:00",
-  "window_start": "2026-09-23",
-  "window_end": "2026-09-30",
+  "generated_at": "2026-09-24T09:58:22.404023+00:00",
+  "window_start": "2026-09-24",
+  "window_end": "2026-10-01",
   "source": "Pickx via iptv-org/epg",
   "channels": [
     "France 2",
@@ -34,7 +34,7 @@
     "des",
     "sur"
   ],
-  "count": 5,
+  "count": 6,
   "programmes": [
     {
       "start": "2026-09-24T19:10:00+00:00",
@@ -83,6 +83,16 @@
       "title": "Les secrets du Finistère",
       "subtitle": "La disparue de Douarnenez",
       "description": "De retour dans sa Bretagne natale, la capitaine Morgane Ledantec est confrontée à la découverte d'ossements humains suite à la chute d'un chêne sacré lors d'une tempête. La victime était adepte du druidisme. Morgane va devoir renouer avec ses amis de jeunesse, qui semblent tous avoir quelque chose à cacher.",
+      "category": "Séries",
+      "icon": ""
+    },
+    {
+      "start": "2026-09-30T19:15:00+00:00",
+      "stop": "2026-09-30T20:01:00+00:00",
+      "channel": "TF1",
+      "title": "Tracker",
+      "subtitle": "Le secret de Riley",
+      "description": "Une nouvelle piste dans l'affaire qui hante Colter depuis des années, à savoir la disparition de Gina Picket, le pousse à refaire équipe avec Keaton, le policier à la retraite, pour traquer un tueur en série.",
       "category": "Séries",
       "icon": ""
     }
