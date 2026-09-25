@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-24T13:46:40.288584+00:00",
-  "window_start": "2026-09-24",
-  "window_end": "2026-10-01",
+  "generated_at": "2026-09-25T10:10:09.849322+00:00",
+  "window_start": "2026-09-25",
+  "window_end": "2026-10-02",
   "source": "Pickx via iptv-org/epg",
   "channels": [
     "France 2",
@@ -34,18 +34,8 @@
     "des",
     "sur"
   ],
-  "count": 6,
+  "count": 7,
   "programmes": [
-    {
-      "start": "2026-09-24T19:10:00+00:00",
-      "stop": "2026-09-24T20:50:00+00:00",
-      "channel": "France 3",
-      "title": "Meurtres à...",
-      "subtitle": "Meurtres à Tahiti",
-      "description": "Sur l'île de Tahiti, le corps mutilé d'un homme a été découvert dans le temple sacré d'Oro, un ancien dieu de la guerre. La police mène l'enquête.",
-      "category": "Séries",
-      "icon": ""
-    },
     {
       "start": "2026-09-25T19:10:00+00:00",
       "stop": "2026-09-25T20:45:00+00:00",
@@ -93,6 +83,26 @@
       "title": "Tracker",
       "subtitle": "Le secret de Riley",
       "description": "Une nouvelle piste dans l'affaire qui hante Colter depuis des années, à savoir la disparition de Gina Picket, le pousse à refaire équipe avec Keaton, le policier à la retraite, pour traquer un tueur en série.",
+      "category": "Séries",
+      "icon": ""
+    },
+    {
+      "start": "2026-10-01T14:16:00+00:00",
+      "stop": "2026-10-01T14:45:00+00:00",
+      "channel": "TV5 Monde",
+      "title": "Secrets de Nos Vallées",
+      "subtitle": "Le Secret Du Poisson Géant",
+      "description": "Le secret du poisson géant Dans le Var, le lac de Saint-Cassien, riche en biodiversité, attire les passionnés de pêche, en quête d'un poisson de plus de 2 mètres. Introduit illégalement, ce prédateur a bouleversé l'écosystème avant de s'autoréguler, suscitant l'intérêt des spécialistes qui étudient son impact sur la faune locale.",
+      "category": "Documentaire",
+      "icon": ""
+    },
+    {
+      "start": "2026-10-01T19:10:00+00:00",
+      "stop": "2026-10-01T20:50:00+00:00",
+      "channel": "France 3",
+      "title": "Meurtres à...",
+      "subtitle": "Meurtres à Amiens",
+      "description": "Au coeur des hortillonnages d'Amiens, sur une nacelle de manège en forme de Nautilus, flotte le corps sans vie de Charlotte Jelenski. Qui aurait pu s'en prendre à cette femme apparemment sans histoires, qui était aux manettes d'un ambitieux projet de parc d'attraction sur le thème de l'œuvre de Jules Verne ? Pour résoudre cette affaire, le capitaine Louis Monet, victime d'un burn out après le suicide de sa coéquipière, fait équipe avec une nouvelle adjointe Léa Barnier, de trente ans sa cadette. Ensemble, il vont devoir démêler le vrai du faux et confronter leurs méthodes.",
       "category": "Séries",
       "icon": ""
     }
