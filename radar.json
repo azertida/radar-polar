@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-25T14:08:49.407044+00:00",
-  "window_start": "2026-09-25",
-  "window_end": "2026-10-02",
+  "generated_at": "2026-09-26T09:50:38.466227+00:00",
+  "window_start": "2026-09-26",
+  "window_end": "2026-10-03",
   "source": "Pickx via iptv-org/epg",
   "channels": [
     "France 2",
@@ -34,51 +34,21 @@
     "des",
     "sur"
   ],
-  "count": 7,
+  "count": 5,
   "programmes": [
-    {
-      "start": "2026-09-25T19:10:00+00:00",
-      "stop": "2026-09-25T20:45:00+00:00",
-      "channel": "France 3",
-      "title": "Les secrets du Finistère",
-      "subtitle": "Le chant des sirènes",
-      "description": "Après la découverte du corps sans vie d'une femme ressemblant étrangement à une sirène, le commandant Jérémy Laubier fait appel à Morgane Le Dantec, devenue professeur de faculté spécialisée dans les mythes et légendes bretonnes, pour l'aider dans son enquête. La découverte d'un bateau de pêche artisanale dérivant sans âme qui vive à bord complexifie encore l'enquête quand l'ADN de la sirène est retrouvé à bord. Quel est le lien entre cette adepte du Mermaiding et ce marin-pêcheur mystérieusement disparu ? Si beaucoup le pensent noyé, Morgane sait qu'il est encore vie et qu'il est la clé de tous ces mystères. C'est donc ce lien que doit découvrir Jérémy qui, même s'il ne croit toujours pas aux intuitions de Morgane, doit bien reconnaître qu'elle est souvent en avance sur l'enquête traditionnelle...",
-      "category": "Séries",
-      "icon": ""
-    },
-    {
-      "start": "2026-09-25T20:45:00+00:00",
-      "stop": "2026-09-25T22:20:00+00:00",
-      "channel": "France 3",
-      "title": "Les secrets du Finistère",
-      "subtitle": "La disparue de Douarnenez",
-      "description": "De retour dans sa Bretagne natale, Morgane Le Dantec, capitaine de gendarmerie, est confrontée à la découverte d'ossements humains après la chute d'un chêne sacré lors d'une tempête. La victime était adepte du druidisme, auquel Morgane a été initiée à l'adolescence par sa marraine, la troublante Katell. Douée d'une capacité de prescience parfois déroutante qu'elle a toujours occultée et qui va se réveiller peu à peu au fil de son enquête, Morgane va devoir renouer avec ses amis de jeunesse, qui tous semblent avoir quelque chose à cacher...",
-      "category": "Séries",
-      "icon": ""
-    },
-    {
-      "start": "2026-09-26T20:36:00+00:00",
-      "stop": "2026-09-26T22:12:00+00:00",
-      "channel": "La Une",
-      "title": "Meurtres à Laguiole",
-      "subtitle": "",
-      "description": "Laguiole, dans l'Aubrac. Ludivine, une écrivaine locale et son ami coutelier, découvrent le cadavre d'un homme, pendu et torturé à la manière du \" Voleur d'Alpuech \". Ludivine est d'autant plus troublée par cette découverte qu'elle a écrit un livre sur ce voleur qui sévissait il y a plus de deux cents ans aux dépens des notables de la région. L'enquête est confiée au gendarme local Victor, la quarantaine, et à sa filleule gendarme Julie, 25 ans, qui sort de Saint-Cyr. Ils identifient aussitôt la victime comme étant Laguarrigue, propriétaire d'une célèbre fonderie de couteaux, et surtout ils apprennent qu'un inconnu déguisé en Voleur d'Alpuech a été vu roder la nuit du meurtre...",
-      "category": "Cinéma",
-      "icon": ""
-    },
     {
       "start": "2026-09-29T23:05:00+00:00",
       "stop": "2026-09-30T00:38:00+00:00",
       "channel": "TV5 Monde",
       "title": "Les secrets du Finistère",
       "subtitle": "La disparue de Douarnenez",
-      "description": "De retour dans sa Bretagne natale, la capitaine Morgane Ledantec est confrontée à la découverte d'ossements humains suite à la chute d'un chêne sacré lors d'une tempête. La victime était adepte du druidisme. Morgane va devoir renouer avec ses amis de jeunesse, qui semblent tous avoir quelque chose à cacher.",
+      "description": "De retour dans sa Bretagne natale, Morgane Le Dantec, capitaine de gendarmerie, est confrontée à la découverte d'ossements humains après la chute d'un chêne sacré lors d'une tempête.",
       "category": "Séries",
       "icon": ""
     },
     {
-      "start": "2026-09-30T19:15:00+00:00",
-      "stop": "2026-09-30T20:01:00+00:00",
+      "start": "2026-09-30T19:13:00+00:00",
+      "stop": "2026-09-30T20:00:00+00:00",
       "channel": "TF1",
       "title": "Tracker",
       "subtitle": "Le secret de Riley",
@@ -92,7 +62,7 @@
       "channel": "TV5 Monde",
       "title": "Secrets de Nos Vallées",
       "subtitle": "Le Secret Du Poisson Géant",
-      "description": "Le secret du poisson géant Dans le Var, le lac de Saint-Cassien, riche en biodiversité, attire les passionnés de pêche, en quête d'un poisson de plus de 2 mètres. Introduit illégalement, ce prédateur a bouleversé l'écosystème avant de s'autoréguler, suscitant l'intérêt des spécialistes qui étudient son impact sur la faune locale.",
+      "description": "Le secret du poisson géant Dans le Var, le lac de Saint-Cassien, riche en biodiversité, attire les passionnés de pêche, en quête d'un poisson de plus de 2 mètres. Introduit illégalement.",
       "category": "Documentaire",
       "icon": ""
     },
@@ -104,6 +74,16 @@
       "subtitle": "Meurtres à Amiens",
       "description": "Au coeur des hortillonnages d'Amiens, sur une nacelle de manège en forme de Nautilus, flotte le corps sans vie de Charlotte Jelenski. Qui aurait pu s'en prendre à cette femme apparemment sans histoires, qui était aux manettes d'un ambitieux projet de parc d'attraction sur le thème de l'œuvre de Jules Verne ? Pour résoudre cette affaire, le capitaine Louis Monet, victime d'un burn out après le suicide de sa coéquipière, fait équipe avec une nouvelle adjointe Léa Barnier, de trente ans sa cadette. Ensemble, il vont devoir démêler le vrai du faux et confronter leurs méthodes.",
       "category": "Séries",
+      "icon": ""
+    },
+    {
+      "start": "2026-10-02T02:00:00+00:00",
+      "stop": "2026-10-02T02:30:00+00:00",
+      "channel": "TV5 Monde",
+      "title": "Secrets de Nos Vallées",
+      "subtitle": "Le Secret Du Poisson Géant",
+      "description": "Le secret du poisson géant Dans le Var, le lac de Saint-Cassien, riche en biodiversité, attire les passionnés de pêche, en quête d'un poisson de plus de 2 mètres. Introduit illégalement.",
+      "category": "Documentaire",
       "icon": ""
     }
   ]
