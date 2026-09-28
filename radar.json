@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-27T14:16:57.357607+00:00",
-  "window_start": "2026-09-27",
-  "window_end": "2026-10-04",
+  "generated_at": "2026-09-28T11:40:09.487935+00:00",
+  "window_start": "2026-09-28",
+  "window_end": "2026-10-05",
   "source": "Pickx via iptv-org/epg",
   "channels": [
     "France 2",
@@ -34,7 +34,7 @@
     "des",
     "sur"
   ],
-  "count": 5,
+  "count": 6,
   "programmes": [
     {
       "start": "2026-09-29T23:05:00+00:00",
@@ -84,6 +84,16 @@
       "subtitle": "Le Secret Du Poisson Géant",
       "description": "Le secret du poisson géant Dans le Var, le lac de Saint-Cassien, riche en biodiversité, attire les passionnés de pêche, en quête d'un poisson de plus de 2 mètres. Introduit illégalement.",
       "category": "Documentaire",
+      "icon": ""
+    },
+    {
+      "start": "2026-10-04T13:40:00+00:00",
+      "stop": "2026-10-04T15:20:00+00:00",
+      "channel": "France 3",
+      "title": "Meurtres à...",
+      "subtitle": "Meurtres à Colmar",
+      "description": "Un chirurgien arrive à Colmar pour enquêter sur la mort de son fils policier. Il découvre un meurtre étrange et tente de prouver l'innocence de son fils accusé de drogue.",
+      "category": "Séries",
       "icon": ""
     }
   ]
