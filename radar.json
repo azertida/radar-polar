@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-30T15:15:56.119101+00:00",
-  "window_start": "2026-09-30",
-  "window_end": "2026-10-07",
+  "generated_at": "2026-10-01T11:35:46.381723+00:00",
+  "window_start": "2026-10-01",
+  "window_end": "2026-10-08",
   "source": "Pickx via iptv-org/epg",
   "channels": [
     "France 2",
@@ -34,18 +34,8 @@
     "des",
     "sur"
   ],
-  "count": 5,
+  "count": 4,
   "programmes": [
-    {
-      "start": "2026-09-30T19:12:00+00:00",
-      "stop": "2026-09-30T20:00:00+00:00",
-      "channel": "TF1",
-      "title": "Tracker",
-      "subtitle": "Le secret de Riley",
-      "description": "Une nouvelle piste dans l'affaire qui hante Colter depuis des années, à savoir la disparition de Gina Picket, le pousse à refaire équipe avec Keaton, le policier à la retraite, pour traquer un tueur en série.",
-      "category": "Séries",
-      "icon": ""
-    },
     {
       "start": "2026-10-01T14:16:00+00:00",
       "stop": "2026-10-01T14:45:00+00:00",
