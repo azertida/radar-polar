@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-01T15:39:18.161234+00:00",
-  "window_start": "2026-10-01",
-  "window_end": "2026-10-08",
+  "generated_at": "2026-10-02T11:05:07.110300+00:00",
+  "window_start": "2026-10-02",
+  "window_end": "2026-10-09",
   "source": "Pickx via iptv-org/epg",
   "channels": [
     "France 2",
@@ -37,26 +37,6 @@
   "count": 4,
   "programmes": [
     {
-      "start": "2026-10-01T14:16:00+00:00",
-      "stop": "2026-10-01T14:45:00+00:00",
-      "channel": "TV5 Monde",
-      "title": "Secrets de Nos Vallées",
-      "subtitle": "Le Secret Du Poisson Géant",
-      "description": "Le secret du poisson géant Dans le Var, le lac de Saint-Cassien, riche en biodiversité, attire les passionnés de pêche, en quête d'un poisson de plus de 2 mètres. Introduit illégalement.",
-      "category": "Documentaire",
-      "icon": ""
-    },
-    {
-      "start": "2026-10-01T19:10:00+00:00",
-      "stop": "2026-10-01T20:50:00+00:00",
-      "channel": "France 3",
-      "title": "Meurtres à...",
-      "subtitle": "Meurtres à Amiens",
-      "description": "Au coeur des hortillonnages d'Amiens, sur une nacelle de manège en forme de Nautilus, flotte le corps sans vie de Charlotte Jelenski. Qui aurait pu s'en prendre à cette femme apparemment sans histoires, qui était aux manettes d'un ambitieux projet de parc d'attraction sur le thème de l'œuvre de Jules Verne ? Pour résoudre cette affaire, le capitaine Louis Monet, victime d'un burn out après le suicide de sa coéquipière, fait équipe avec une nouvelle adjointe Léa Barnier, de trente ans sa cadette. Ensemble, il vont devoir démêler le vrai du faux et confronter leurs méthodes.",
-      "category": "Séries",
-      "icon": ""
-    },
-    {
       "start": "2026-10-02T02:00:00+00:00",
       "stop": "2026-10-02T02:30:00+00:00",
       "channel": "TV5 Monde",
@@ -73,6 +53,26 @@
       "title": "Meurtres à...",
       "subtitle": "Meurtres à Colmar",
       "description": "Un chirurgien arrive à Colmar pour enquêter sur la mort de son fils policier. Il découvre un meurtre étrange et tente de prouver l'innocence de son fils accusé de drogue.",
+      "category": "Séries",
+      "icon": ""
+    },
+    {
+      "start": "2026-10-08T14:16:00+00:00",
+      "stop": "2026-10-08T14:45:00+00:00",
+      "channel": "TV5 Monde",
+      "title": "Secrets de Nos Vallées",
+      "subtitle": "Fario, Le Secret de la Montagne",
+      "description": "Fario, le secret de la montagne La vallée de la Gordolasque, entre les Alpes du Sud et la Méditerranée, est un écrin préservé où faune et flore cohabitent en harmonie. Romain Passeron suit le cycle des truites remontant la rivière et découvre un savoir-faire ancestral : le réempoissonnement des lacs d'altitude.",
+      "category": "Documentaire",
+      "icon": ""
+    },
+    {
+      "start": "2026-10-08T19:10:00+00:00",
+      "stop": "2026-10-08T20:50:00+00:00",
+      "channel": "France 3",
+      "title": "Meurtres à",
+      "subtitle": "Meurtres dans le Jura",
+      "description": "Anna Buisson, capitaine de gendarmerie à Moirans, dans le Jura, et Eymeric Massoni-Tournault, de la Section de recherches de la gendarmerie de Lyon, débutent cette enquête difficile. C'est alors qu'un second meurtre se produit. Pour élucider ces affaires, les enquêteurs doivent fouiller dans les secrets des familles concernées...",
       "category": "Séries",
       "icon": ""
     }
