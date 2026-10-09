@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-08T15:50:47.264037+00:00",
-  "window_start": "2026-10-08",
-  "window_end": "2026-10-15",
+  "generated_at": "2026-10-09T11:52:19.786503+00:00",
+  "window_start": "2026-10-09",
+  "window_end": "2026-10-16",
   "source": "Pickx via iptv-org/epg",
   "channels": [
     "France 2",
@@ -34,28 +34,8 @@
     "des",
     "sur"
   ],
-  "count": 4,
+  "count": 3,
   "programmes": [
-    {
-      "start": "2026-10-08T14:16:00+00:00",
-      "stop": "2026-10-08T14:45:00+00:00",
-      "channel": "TV5 Monde",
-      "title": "Secrets de Nos Vallées",
-      "subtitle": "Fario, Le Secret de la Montagne",
-      "description": "Fario, le secret de la montagne La vallée de la Gordolasque, entre les Alpes du Sud et la Méditerranée, est un écrin préservé où faune et flore cohabitent en harmonie.",
-      "category": "Documentaire",
-      "icon": ""
-    },
-    {
-      "start": "2026-10-08T19:10:00+00:00",
-      "stop": "2026-10-08T20:50:00+00:00",
-      "channel": "France 3",
-      "title": "Meurtres à",
-      "subtitle": "Meurtres dans le Jura",
-      "description": "Anna Buisson, capitaine de gendarmerie à Moirans, dans le Jura, et Eymeric Massoni-Tournault, de la Section de recherches de la gendarmerie de Lyon, débutent cette enquête difficile. C'est alors qu'un second meurtre se produit. Pour élucider ces affaires, les enquêteurs doivent fouiller dans les secrets des familles concernées...",
-      "category": "Séries",
-      "icon": ""
-    },
     {
       "start": "2026-10-09T02:00:00+00:00",
       "stop": "2026-10-09T02:30:00+00:00",
@@ -74,6 +54,16 @@
       "subtitle": "",
       "description": "Diana est à la tête d'une entreprise florissante à San Francisco. Alors que les affaires vont bon train durant la saison des fêtes, sa tante est retrouvée morte, vraisemblablement victime d'une chute dans l'escalier. Mais Diana n'y croit pas. Elle se rend dans la ville de sa tante et commence à mener sa propre enquête pour déterminer s'il s'agit vraiment d'un accident.",
       "category": "Cinéma",
+      "icon": ""
+    },
+    {
+      "start": "2026-10-15T14:16:00+00:00",
+      "stop": "2026-10-15T14:41:00+00:00",
+      "channel": "TV5 Monde",
+      "title": "Secrets de Nos Vallées",
+      "subtitle": "La Rivière Secrète Du Poisson Migrateur",
+      "description": "La rivière secrète du poisson migrateur Dans les Alpes-Maritimes, les gorges de la Cagne s'étendent dans des zones urbanisées, tout en abritant une biodiversité protégée. Ici, avec des techniques de pêche électrique, l'association Migrateurs Rhône-Méditerranée étudie la migration d'un poisson en voie de disparition, et lutte contre l'urbanisation ou la pollution qui menacent l'espèce.",
+      "category": "Documentaire",
       "icon": ""
     }
   ]
