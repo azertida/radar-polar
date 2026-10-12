@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-11T15:03:53.499995+00:00",
-  "window_start": "2026-10-11",
-  "window_end": "2026-10-18",
+  "generated_at": "2026-10-12T13:06:36.932683+00:00",
+  "window_start": "2026-10-12",
+  "window_end": "2026-10-19",
   "source": "Pickx via iptv-org/epg",
   "channels": [
     "France 2",
@@ -34,7 +34,7 @@
     "des",
     "sur"
   ],
-  "count": 5,
+  "count": 6,
   "programmes": [
     {
       "start": "2026-10-15T14:16:00+00:00",
@@ -83,6 +83,16 @@
       "title": "Meurtres à...",
       "subtitle": "Meurtres à Strasbourg",
       "description": "Alors que Julian Mathis, jeune héritier du prestigieux domaine viticole du Clos-Mathis, et Clara Lemestre, brillante œnologue récemment embauchée, s'apprêtent à faire déguster une cuvée spéciale de vin d'Alsace à de riches investisseurs étrangers, c'est un vin rosé, et non pas blanc qui sort... A l'intérieur de la cuve, ils trouvent le corps de Ronald Mathis, le père de Julian, les yeux collés ! Katel Leguennec (40 ans), commandant du SRPJ de Strasbourg arrive sur place. Elle y retrouve Maxime Keller (43 ans), patron du service-médico-légal. Ils ont vécu une belle histoire d'amour dans leur jeunesse mais après le départ de Maxime, Katel, restée à Strasbourg, est tombée amoureuse de Franck, le père de Maxime, et l'a épousé. Malgré la gêne palpable entre eux, ils interrogent Lydie Mathis, la matriarche imposante de la famille Mathis. Dans la famille Mathis et son entourage, tout le monde semble avoir une raison, à un moment, d'avoir assassiné Ronald. L'enquête va progressivement faire apparaître des indices évoquant la légende de sainte-Odile, jeune fille née aveugle et abandonnée par ses parents, devenue Sainte patronne de l'Alsace.",
+      "category": "Séries",
+      "icon": ""
+    },
+    {
+      "start": "2026-10-18T14:05:00+00:00",
+      "stop": "2026-10-18T15:40:00+00:00",
+      "channel": "France 3",
+      "title": "Meurtres à...",
+      "subtitle": "Meurtres à Tahiti",
+      "description": "Sur l'île de Tahiti, le corps mutilé d'un homme a été découvert dans le temple sacré d'Oro, un ancien dieu de la guerre. La police mène l'enquête.",
       "category": "Séries",
       "icon": ""
     }
