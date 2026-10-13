@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T18:11:45.396168+00:00",
-  "window_start": "2026-10-12",
-  "window_end": "2026-10-19",
+  "generated_at": "2026-10-13T12:40:52.606090+00:00",
+  "window_start": "2026-10-13",
+  "window_end": "2026-10-20",
   "source": "Pickx via iptv-org/epg",
   "channels": [
     "France 2",
@@ -34,7 +34,7 @@
     "des",
     "sur"
   ],
-  "count": 6,
+  "count": 7,
   "programmes": [
     {
       "start": "2026-10-15T14:16:00+00:00",
@@ -94,6 +94,16 @@
       "subtitle": "Meurtres à Tahiti",
       "description": "Sur l'île de Tahiti, le corps mutilé d'un homme a été découvert dans le temple sacré d'Oro, un ancien dieu de la guerre. La police mène l'enquête.",
       "category": "Séries",
+      "icon": ""
+    },
+    {
+      "start": "2026-10-19T04:00:00+00:00",
+      "stop": "2026-10-19T04:30:00+00:00",
+      "channel": "TV5 Monde",
+      "title": "Secrets de Nos Vallées",
+      "subtitle": "Le Secret Du Poisson Géant",
+      "description": "Le secret du poisson géant Dans le Var, le lac de Saint-Cassien, riche en biodiversité, attire les passionnés de pêche, en quête d'un poisson de plus de 2 mètres. Introduit illégalement.",
+      "category": "Documentaire",
       "icon": ""
     }
   ]
