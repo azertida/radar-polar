@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-16T13:30:25.516723+00:00",
-  "window_start": "2026-10-16",
-  "window_end": "2026-10-23",
+  "generated_at": "2026-10-17T09:18:14.293934+00:00",
+  "window_start": "2026-10-17",
+  "window_end": "2026-10-24",
   "source": "Pickx via iptv-org/epg",
   "channels": [
     "France 2",
@@ -36,16 +36,6 @@
   ],
   "count": 8,
   "programmes": [
-    {
-      "start": "2026-10-16T02:00:00+00:00",
-      "stop": "2026-10-16T02:30:00+00:00",
-      "channel": "TV5 Monde",
-      "title": "Secrets de Nos Vallées",
-      "subtitle": "La Rivière Secrète Du Poisson Migrateur",
-      "description": "La rivière secrète du poisson migrateur Dans les Alpes-Maritimes, les gorges de la Cagne s'étendent dans des zones urbanisées, tout en abritant une biodiversité protégée. Ici.",
-      "category": "Documentaire",
-      "icon": ""
-    },
     {
       "start": "2026-10-17T12:55:00+00:00",
       "stop": "2026-10-17T14:36:00+00:00",
@@ -114,6 +104,16 @@
       "subtitle": "",
       "description": "Le capitaine Gwenaëlle Garrec et l'adjudant-chef Éric Vautier enquêtent sur le meurtre d'un cadavre retrouvé sur la plage. L'affaire semble liée à la piraterie et aux tortures des corsaires, ce qui rappelle de mauvais souvenirs à Gwen.",
       "category": "Cinéma",
+      "icon": ""
+    },
+    {
+      "start": "2026-10-23T08:30:00+00:00",
+      "stop": "2026-10-23T09:00:00+00:00",
+      "channel": "France 3",
+      "title": "Escales en France",
+      "subtitle": "Les secrets de Marseille",
+      "description": "Ce magazine va nous faire découvrir les régions françaises en plongeant le téléspectateur au cœur d'une ville, d'un département français, d'une région, et lui fera découvrir son histoire, ses richesses patrimoniales, ses spécialités gastronomiques et ses lieux incontournables... Escales en France va à la rencontre de ces français agriculteurs, marins pêcheurs, artisans, restaurateurs, éleveurs, guides touristiques, tou s amoureux fous de leurs régions.",
+      "category": "Magazine",
       "icon": ""
     }
   ]
