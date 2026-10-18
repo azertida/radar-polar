@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-17T12:23:09.306802+00:00",
-  "window_start": "2026-10-17",
-  "window_end": "2026-10-24",
+  "generated_at": "2026-10-18T09:32:03.341175+00:00",
+  "window_start": "2026-10-18",
+  "window_end": "2026-10-25",
   "source": "Pickx via iptv-org/epg",
   "channels": [
     "France 2",
@@ -34,38 +34,8 @@
     "des",
     "sur"
   ],
-  "count": 8,
+  "count": 7,
   "programmes": [
-    {
-      "start": "2026-10-17T12:55:00+00:00",
-      "stop": "2026-10-17T14:36:00+00:00",
-      "channel": "La Une",
-      "title": "Meurtres à Saint-Malo",
-      "subtitle": "",
-      "description": "Le capitaine Gwenaëlle Garrec et l'adjudant-chef Éric Vautier enquêtent sur le meurtre d'un cadavre retrouvé sur la plage. L'affaire semble liée à la piraterie et aux tortures des corsaires, ce qui rappelle de mauvais souvenirs à Gwen.",
-      "category": "Cinéma",
-      "icon": ""
-    },
-    {
-      "start": "2026-10-17T19:10:00+00:00",
-      "stop": "2026-10-17T20:40:00+00:00",
-      "channel": "France 3",
-      "title": "Meurtres à...",
-      "subtitle": "Meurtres à Epinal",
-      "description": "A l'Imagerie d'Epinal, le corps sans vie du directeur artistique de l'établissement est retrouvé, emprisonné dans une presse litho, les mains coupées et la langue arrachée. Le tueur a déposé sur le corps une image d'Epinal provenant d'une pièce maîtresse de l'exposition qui a lieu en ce moment même au musée de l'Imagerie. L'enquête est confiée à la capitaine Alice Fournier et au commandant Emile Cabat. Si Alice, native de la ville, connaît parfaitement l'Imagerie, Emile, qui arrive des douanes de Pointe-à-Pitre pour se rapprocher de sa fille, va devoir s'acclimater aux us et coutumes locales. Entre les deux, le courant est électrique...",
-      "category": "Séries",
-      "icon": ""
-    },
-    {
-      "start": "2026-10-17T20:40:00+00:00",
-      "stop": "2026-10-17T22:10:00+00:00",
-      "channel": "France 3",
-      "title": "Meurtres à...",
-      "subtitle": "Meurtres à Strasbourg",
-      "description": "Alors que Julian Mathis, jeune héritier du prestigieux domaine viticole du Clos-Mathis, et Clara Lemestre, brillante œnologue récemment embauchée, s'apprêtent à faire déguster une cuvée spéciale de vin d'Alsace à de riches investisseurs étrangers, c'est un vin rosé, et non pas blanc qui sort... A l'intérieur de la cuve, ils trouvent le corps de Ronald Mathis, le père de Julian, les yeux collés ! Katel Leguennec (40 ans), commandant du SRPJ de Strasbourg arrive sur place. Elle y retrouve Maxime Keller (43 ans), patron du service-médico-légal. Ils ont vécu une belle histoire d'amour dans leur jeunesse mais après le départ de Maxime, Katel, restée à Strasbourg, est tombée amoureuse de Franck, le père de Maxime, et l'a épousé. Malgré la gêne palpable entre eux, ils interrogent Lydie Mathis, la matriarche imposante de la famille Mathis. Dans la famille Mathis et son entourage, tout le monde semble avoir une raison, à un moment, d'avoir assassiné Ronald. L'enquête va progressivement faire apparaître des indices évoquant la légende de sainte-Odile, jeune fille née aveugle et abandonnée par ses parents, devenue Sainte patronne de l'Alsace.",
-      "category": "Séries",
-      "icon": ""
-    },
     {
       "start": "2026-10-18T14:05:00+00:00",
       "stop": "2026-10-18T15:40:00+00:00",
@@ -87,8 +57,8 @@
       "icon": ""
     },
     {
-      "start": "2026-10-20T00:50:00+00:00",
-      "stop": "2026-10-20T01:32:00+00:00",
+      "start": "2026-10-20T00:53:00+00:00",
+      "stop": "2026-10-20T01:35:00+00:00",
       "channel": "TF1",
       "title": "New York, Unité Spéciale",
       "subtitle": "Meurtre sur Internet",
@@ -114,6 +84,26 @@
       "subtitle": "Les secrets de Marseille",
       "description": "Ce magazine va nous faire découvrir les régions françaises en plongeant le téléspectateur au cœur d'une ville, d'un département français, d'une région, et lui fera découvrir son histoire, ses richesses patrimoniales, ses spécialités gastronomiques et ses lieux incontournables... Escales en France va à la rencontre de ces français agriculteurs, marins pêcheurs, artisans, restaurateurs, éleveurs, guides touristiques, tou s amoureux fous de leurs régions.",
       "category": "Magazine",
+      "icon": ""
+    },
+    {
+      "start": "2026-10-24T07:04:00+00:00",
+      "stop": "2026-10-24T07:21:00+00:00",
+      "channel": "TF1",
+      "title": "Migali",
+      "subtitle": "Les mystères de l'Académie",
+      "description": "Un mystère plane dans les couloirs de l'école. Notre trio d'amis improvise une petite enquête royale pour découvrir ce qui se trame en douce. Parviendront-ils à résoudre l'énigme qui intrigue toute l'Académie et à démasquer le responsable de ces événements ?",
+      "category": "Jeunesse",
+      "icon": ""
+    },
+    {
+      "start": "2026-10-24T19:10:00+00:00",
+      "stop": "2026-10-24T20:35:00+00:00",
+      "channel": "France 3",
+      "title": "Meurtres à...",
+      "subtitle": "Meurtres à Honfleur",
+      "description": "Honfleur au printemps est un écrin dont le joyau est le port, où les mâts des bateaux de plaisance scintillent et se balancent nonchalamment sous le regard des touristes. Sur le quai, en ce jour de marché, une effervescence agréable domine. Mais soudain des cris de surprise et d'effroi se font entendre et chassent les jeux enfantins. On découvre dans le port ce qui semble être un corps, logé dans une épaisse housse en plastique. A l'intérieur, la silhouette humaine est recouverte de gros sel et de sable. C'est le député Jean-Charles Villiers. La mise en scène rappelle la légende d'Arlequin, née au XVIIe siècle à Honfleur. La capitaine Justine Bouvin et son adjoint Vianney mènent l'enquête, bientôt rejoints par l'ancien grand flic Paul Mesnil, retraité et désormais propriétaire d'un restaurant sur les hauteurs de Honfleur...",
+      "category": "Séries",
       "icon": ""
     }
   ]
