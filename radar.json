@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-18T12:46:42.357163+00:00",
-  "window_start": "2026-10-18",
-  "window_end": "2026-10-25",
+  "generated_at": "2026-10-19T10:42:37.417358+00:00",
+  "window_start": "2026-10-19",
+  "window_end": "2026-10-26",
   "source": "Pickx via iptv-org/epg",
   "channels": [
     "France 2",
@@ -34,18 +34,8 @@
     "des",
     "sur"
   ],
-  "count": 7,
+  "count": 8,
   "programmes": [
-    {
-      "start": "2026-10-18T14:05:00+00:00",
-      "stop": "2026-10-18T15:40:00+00:00",
-      "channel": "France 3",
-      "title": "Meurtres à...",
-      "subtitle": "Meurtres à Tahiti",
-      "description": "Sur l'île de Tahiti, le corps mutilé d'un homme a été découvert dans le temple sacré d'Oro, un ancien dieu de la guerre. La police mène l'enquête.",
-      "category": "Séries",
-      "icon": ""
-    },
     {
       "start": "2026-10-19T04:00:00+00:00",
       "stop": "2026-10-19T04:30:00+00:00",
@@ -102,7 +92,27 @@
       "channel": "France 3",
       "title": "Meurtres à...",
       "subtitle": "Meurtres à Honfleur",
-      "description": "Honfleur au printemps est un écrin dont le joyau est le port, où les mâts des bateaux de plaisance scintillent et se balancent nonchalamment sous le regard des touristes. Sur le quai, en ce jour de marché, une effervescence agréable domine. Mais soudain des cris de surprise et d'effroi se font entendre et chassent les jeux enfantins. On découvre dans le port ce qui semble être un corps, logé dans une épaisse housse en plastique. A l'intérieur, la silhouette humaine est recouverte de gros sel et de sable. C'est le député Jean-Charles Villiers. La mise en scène rappelle la légende d'Arlequin, née au XVIIe siècle à Honfleur. La capitaine Justine Bouvin et son adjoint Vianney mènent l'enquête, bientôt rejoints par l'ancien grand flic Paul Mesnil, retraité et désormais propriétaire d'un restaurant sur les hauteurs de Honfleur...",
+      "description": "Dans les gorges du Verdon, enquête sur le meurtre d'un homme de 78 ans, retrouvé mort sur le barrage de Castillon dans une position étrange.",
+      "category": "Séries",
+      "icon": ""
+    },
+    {
+      "start": "2026-10-25T19:50:00+00:00",
+      "stop": "2026-10-25T20:47:00+00:00",
+      "channel": "La Une",
+      "title": "Les Douze - Meurtres au Botox",
+      "subtitle": "L'enfant aux 1000 visages",
+      "description": "Douze jurés jugent un couple accusé du meurtre d'un écrivain célèbre et de sa femme.",
+      "category": "Séries",
+      "icon": ""
+    },
+    {
+      "start": "2026-10-25T20:47:00+00:00",
+      "stop": "2026-10-25T21:45:00+00:00",
+      "channel": "La Une",
+      "title": "Les Douze - Meurtres au Botox",
+      "subtitle": "Botox",
+      "description": "Walter se prépare pour l'anniversaire de sa mère, et dans la salle d'audience, les accusés sont entendus.",
       "category": "Séries",
       "icon": ""
     }
