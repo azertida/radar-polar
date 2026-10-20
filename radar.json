@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-19T15:51:27.046285+00:00",
-  "window_start": "2026-10-19",
-  "window_end": "2026-10-26",
+  "generated_at": "2026-10-20T10:00:02.623635+00:00",
+  "window_start": "2026-10-20",
+  "window_end": "2026-10-27",
   "source": "Pickx via iptv-org/epg",
   "channels": [
     "France 2",
@@ -36,16 +36,6 @@
   ],
   "count": 8,
   "programmes": [
-    {
-      "start": "2026-10-19T04:00:00+00:00",
-      "stop": "2026-10-19T04:30:00+00:00",
-      "channel": "TV5 Monde",
-      "title": "Secrets de Nos Vallées",
-      "subtitle": "Le Secret Du Poisson Géant",
-      "description": "Le secret du poisson géant Dans le Var, le lac de Saint-Cassien, riche en biodiversité, attire les passionnés de pêche, en quête d'un poisson de plus de 2 mètres. Introduit illégalement.",
-      "category": "Documentaire",
-      "icon": ""
-    },
     {
       "start": "2026-10-20T00:53:00+00:00",
       "stop": "2026-10-20T01:35:00+00:00",
@@ -114,6 +104,16 @@
       "subtitle": "Botox",
       "description": "Walter se prépare pour l'anniversaire de sa mère, et dans la salle d'audience, les accusés sont entendus.",
       "category": "Séries",
+      "icon": ""
+    },
+    {
+      "start": "2026-10-26T05:00:00+00:00",
+      "stop": "2026-10-26T05:30:00+00:00",
+      "channel": "TV5 Monde",
+      "title": "Secrets de Nos Vallées",
+      "subtitle": "Fario, Le Secret de la Montagne",
+      "description": "Fario, le secret de la montagne La vallée de la Gordolasque, entre les Alpes du Sud et la Méditerranée, est un écrin préservé où faune et flore cohabitent en harmonie.",
+      "category": "Documentaire",
       "icon": ""
     }
   ]
