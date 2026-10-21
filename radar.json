@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-20T13:49:57.185605+00:00",
-  "window_start": "2026-10-20",
-  "window_end": "2026-10-27",
+  "generated_at": "2026-10-21T10:04:57.133065+00:00",
+  "window_start": "2026-10-21",
+  "window_end": "2026-10-28",
   "source": "Pickx via iptv-org/epg",
   "channels": [
     "France 2",
@@ -34,28 +34,8 @@
     "des",
     "sur"
   ],
-  "count": 8,
+  "count": 6,
   "programmes": [
-    {
-      "start": "2026-10-20T00:53:00+00:00",
-      "stop": "2026-10-20T01:35:00+00:00",
-      "channel": "TF1",
-      "title": "New York, Unité Spéciale",
-      "subtitle": "Meurtre sur Internet",
-      "description": "Une adolescente de seize ans affirme avoir été violée par un homme rencontré via internet. Puis.",
-      "category": "Séries",
-      "icon": ""
-    },
-    {
-      "start": "2026-10-20T20:19:00+00:00",
-      "stop": "2026-10-20T22:00:00+00:00",
-      "channel": "La Une",
-      "title": "Meurtres à Saint-Malo",
-      "subtitle": "",
-      "description": "Le capitaine Gwenaëlle Garrec et l'adjudant-chef Éric Vautier enquêtent sur le meurtre d'un cadavre retrouvé sur la plage. L'affaire semble liée à la piraterie et aux tortures des corsaires, ce qui rappelle de mauvais souvenirs à Gwen.",
-      "category": "Cinéma",
-      "icon": ""
-    },
     {
       "start": "2026-10-23T08:30:00+00:00",
       "stop": "2026-10-23T09:00:00+00:00",
@@ -67,8 +47,8 @@
       "icon": ""
     },
     {
-      "start": "2026-10-24T07:04:00+00:00",
-      "stop": "2026-10-24T07:21:00+00:00",
+      "start": "2026-10-24T07:02:00+00:00",
+      "stop": "2026-10-24T07:19:00+00:00",
       "channel": "TF1",
       "title": "Migali",
       "subtitle": "Les mystères de l'Académie",
