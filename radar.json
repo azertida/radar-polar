@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T10:04:57.133065+00:00",
+  "generated_at": "2026-10-21T14:07:23.475035+00:00",
   "window_start": "2026-10-21",
   "window_end": "2026-10-28",
   "source": "Pickx via iptv-org/epg",
@@ -34,67 +34,6 @@
     "des",
     "sur"
   ],
-  "count": 6,
-  "programmes": [
-    {
-      "start": "2026-10-23T08:30:00+00:00",
-      "stop": "2026-10-23T09:00:00+00:00",
-      "channel": "France 3",
-      "title": "Escales en France",
-      "subtitle": "Les secrets de Marseille",
-      "description": "Ce magazine va nous faire découvrir les régions françaises en plongeant le téléspectateur au cœur d'une ville, d'un département français, d'une région, et lui fera découvrir son histoire, ses richesses patrimoniales, ses spécialités gastronomiques et ses lieux incontournables... Escales en France va à la rencontre de ces français agriculteurs, marins pêcheurs, artisans, restaurateurs, éleveurs, guides touristiques, tou s amoureux fous de leurs régions.",
-      "category": "Magazine",
-      "icon": ""
-    },
-    {
-      "start": "2026-10-24T07:02:00+00:00",
-      "stop": "2026-10-24T07:19:00+00:00",
-      "channel": "TF1",
-      "title": "Migali",
-      "subtitle": "Les mystères de l'Académie",
-      "description": "Un mystère plane dans les couloirs de l'école. Notre trio d'amis improvise une petite enquête royale pour découvrir ce qui se trame en douce. Parviendront-ils à résoudre l'énigme qui intrigue toute l'Académie et à démasquer le responsable de ces événements ?",
-      "category": "Jeunesse",
-      "icon": ""
-    },
-    {
-      "start": "2026-10-24T19:10:00+00:00",
-      "stop": "2026-10-24T20:35:00+00:00",
-      "channel": "France 3",
-      "title": "Meurtres à...",
-      "subtitle": "Meurtres à Honfleur",
-      "description": "Dans les gorges du Verdon, enquête sur le meurtre d'un homme de 78 ans, retrouvé mort sur le barrage de Castillon dans une position étrange.",
-      "category": "Séries",
-      "icon": ""
-    },
-    {
-      "start": "2026-10-25T19:50:00+00:00",
-      "stop": "2026-10-25T20:47:00+00:00",
-      "channel": "La Une",
-      "title": "Les Douze - Meurtres au Botox",
-      "subtitle": "L'enfant aux 1000 visages",
-      "description": "Douze jurés jugent un couple accusé du meurtre d'un écrivain célèbre et de sa femme.",
-      "category": "Séries",
-      "icon": ""
-    },
-    {
-      "start": "2026-10-25T20:47:00+00:00",
-      "stop": "2026-10-25T21:45:00+00:00",
-      "channel": "La Une",
-      "title": "Les Douze - Meurtres au Botox",
-      "subtitle": "Botox",
-      "description": "Walter se prépare pour l'anniversaire de sa mère, et dans la salle d'audience, les accusés sont entendus.",
-      "category": "Séries",
-      "icon": ""
-    },
-    {
-      "start": "2026-10-26T05:00:00+00:00",
-      "stop": "2026-10-26T05:30:00+00:00",
-      "channel": "TV5 Monde",
-      "title": "Secrets de Nos Vallées",
-      "subtitle": "Fario, Le Secret de la Montagne",
-      "description": "Fario, le secret de la montagne La vallée de la Gordolasque, entre les Alpes du Sud et la Méditerranée, est un écrin préservé où faune et flore cohabitent en harmonie.",
-      "category": "Documentaire",
-      "icon": ""
-    }
-  ]
+  "count": 0,
+  "programmes": []
 }
